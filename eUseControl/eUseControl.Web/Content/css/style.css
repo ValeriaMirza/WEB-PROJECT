@@ -35,12 +35,12 @@ body {
     
 }
 :root {
-    --primary-color: #ffffff;
+    --primary-color: #f44336;
     --secondary-color: #000000;
 }
 
 .dark-theme {
-    --primary-color: #393636;
+    --primary-color: #888888;
     --secondary-color: #ffffff;
 }
 
