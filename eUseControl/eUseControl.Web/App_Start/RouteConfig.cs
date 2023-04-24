@@ -73,8 +73,19 @@ namespace eUseControl.Web
                     url: "Wishlist",
                     defaults: new { controller = "Home", action = "Wishlist" }
                 );
-            
-                routes.MapRoute(
+            routes.MapRoute(
+                   name: "SignIn",
+                   url: "SignIn",
+                   defaults: new { controller = "Home", action = "SignIn" }
+               );
+
+            routes.MapRoute(
+                  name: "SignUp",
+                  url: "SignUp",
+                  defaults: new { controller = "Home", action = "SignUp" }
+              );
+
+            routes.MapRoute(
                     name: "Default",
                     url: "{controller}/{action}/{id}",
                     defaults: new { controller = "Home", action = "Index", id = UrlParameter.Optional }

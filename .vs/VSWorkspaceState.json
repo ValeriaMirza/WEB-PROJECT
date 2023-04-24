@@ -4,8 +4,10 @@
     "\\eUseControl",
     "\\eUseControl\\eUseControl.Web",
     "\\eUseControl\\eUseControl.Web\\Content",
-    "\\eUseControl\\eUseControl.Web\\Content\\css"
+    "\\eUseControl\\eUseControl.Web\\Content\\css",
+    "\\eUseControl\\eUseControl.Web\\Views",
+    "\\eUseControl\\eUseControl.Web\\Views\\Shared"
   ],
-  "SelectedNode": "\\eUseControl\\eUseControl.Web\\Content\\css\\style.css",
+  "SelectedNode": "\\eUseControl\\eUseControl.Web\\Program.cs",
   "PreviewInSolutionExplorer": false
 }
