@@ -9,9 +9,9 @@ namespace eUseControl.Web.Model
 {
     public class AppDBContext
     {
-        protected override void OnConfiguring(DbContextOptionsBuilder optionBuilder)
-        {
-            optionBuilder.UseMySQL("");
-        }
+        //protected override void OnConfiguring(DbContextOptionsBuilder optionBuilder)
+        //{
+        //    optionBuilder.UseMySQL("");
+        //}
     }
 }
