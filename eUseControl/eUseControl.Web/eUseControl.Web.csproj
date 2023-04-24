@@ -243,12 +243,10 @@
     <Content Include="Content\css\flaticon.css" />
     <Content Include="Content\css\font-awesome.min.css" />
     <Content Include="Content\css\magnific-popup.css" />
-    <Content Include="Content\css\main.css" />
     <Content Include="Content\css\nice-select.css" />
     <Content Include="Content\css\owl.carousel.min.css" />
     <Content Include="Content\css\slicknav.min.css" />
     <Content Include="Content\css\style.css" />
-    <Content Include="Content\css\util.css" />
     <Content Include="Content\darkmode\moon.png" />
     <Content Include="Content\darkmode\sun.png" />
     <Content Include="Content\font-awesome.css" />
@@ -288,11 +286,6 @@
     <Content Include="Content\img\icon\cart.png" />
     <Content Include="Content\img\icon\heart.png" />
     <Content Include="Content\img\icon\search.png" />
-    <Content Include="Content\img\images\bg-01.jpg" />
-    <Content Include="Content\img\images\icons\favicon.ico" />
-    <Content Include="Content\img\images\icons\icon-google.png" />
-    <Content Include="Content\img\images\icons\map-marker.png" />
-    <Content Include="Content\img\images\icons\symbol-01.png" />
     <Content Include="Content\img\instagram\cake-piece.png" />
     <Content Include="Content\img\instagram\instagram-1.jpg" />
     <Content Include="Content\img\instagram\instagram-2.jpg" />
@@ -565,7 +558,6 @@
     <Content Include="Content\Source\sass\_variable.scss" />
     <Content Include="Content\Source\sass\_wisslist.scss" />
     <Content Include="Content\Source\SlickNav-master.zip" />
-    <Content Include="appsettings.json" />
     <None Include="Scripts\jquery-3.6.4.intellisense.js" />
     <Content Include="Scripts\jquery-3.6.4.js" />
     <Content Include="Scripts\jquery-3.6.4.min.js" />
@@ -584,14 +576,10 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\NinjectWebCommon.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
-    <Compile Include="Controllers\DefaultController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="IServiceCollection.cs" />
-    <Compile Include="Model\AppDBContext.cs" />
-    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -632,8 +620,6 @@
     <Content Include="Views\Home\ShopDetails.cshtml" />
     <Content Include="Views\Home\ShoppingCart.cshtml" />
     <Content Include="Views\Home\WishList.cshtml" />
-    <Content Include="Views\Home\SignIn.cshtml" />
-    <Content Include="Views\Home\SignUp.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -643,6 +629,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Model\" />
     <Folder Include="Views\Default\" />
   </ItemGroup>
   <PropertyGroup>
