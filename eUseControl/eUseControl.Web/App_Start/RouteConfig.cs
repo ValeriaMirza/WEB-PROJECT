@@ -73,7 +73,11 @@ namespace eUseControl.Web
                     url: "Wishlist",
                     defaults: new { controller = "Home", action = "Wishlist" }
                 );
-
+            routes.MapRoute(
+                    name: "Register_Login",
+                    url: "Register_Login",
+                    defaults: new { controller = "Account", action = "Register_Login" }
+                );
 
             routes.MapRoute(
                     name: "Default",
