@@ -89,8 +89,8 @@ body {
     position: absolute;
     top: 0;
     left: 0;
-    margin-top: 10px;
-    margin-left: 10px;
+    margin-top: 40px;
+    margin-left: 120px;
     z-index: 9999;
 }
 
