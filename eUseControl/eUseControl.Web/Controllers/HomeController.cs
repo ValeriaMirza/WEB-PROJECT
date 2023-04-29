@@ -53,21 +53,7 @@ namespace eUseControl.Web.Controllers
         {
             return View();
         }
-
-        public ActionResult SignIn() 
-        {
-            return View();
-
-        }
-        public ActionResult SignUp()
-        {
-            return View();
-
-        }
-        //public ActionResult SignIn()
-        //{
-        //    return Redirect("/SignUp");
-        //}
+       
 
 
 
