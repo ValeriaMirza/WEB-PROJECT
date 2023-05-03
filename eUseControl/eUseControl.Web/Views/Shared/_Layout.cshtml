@@ -70,12 +70,13 @@
 
                                 <ul>
 
-                                    
-                                    <li>@Html.ActionLink("Log In", "Register_Login", "Account")</li>
-                                    
-                                   
-                                    <li>@Html.ActionLink("Register", "Register_Login", "Account")</li>
-                                    
+
+                                    <li> @Html.ActionLink("Log In", "Login", "Account")</li>
+                                    <li> @Html.ActionLink("Register", "Register", "Account")</li>
+
+
+
+
                                 </ul>
                             </div>
                             <div class="header__logo">
@@ -83,12 +84,22 @@
                             </div>
                             <div class="header__top__right">
                                 <div class="header__top__right__links">
-                                    <a href="#" class="search-switch"><img src="../Content/img/icon/search.png" alt=""></a>
-                                    <a href="#"><img src="../Content/img/icon/heart.png" alt=""></a>
+                                    
+                                   
+                                    <a href="@Url.Action("Wishlist", "Home")" title="hearticon" class="links">
+                                        <img alt="hearticon" src="@Url.Content("../Content/img/icon/heart.png")">
+
+                                    </a>
+
+
                                 </div>
 
                                 <div class="header__top__right__cart">
-                                    <a href="#"><img src="../Content/img/icon/cart.png" alt=""> <span>0</span></a>
+                                    
+                                    <a href="@Url.Action("ShoppingCart", "Home")" title="carticon" class="links">
+                                        <img alt="carticon" src="@Url.Content("../Content/img/icon/cart.png")">
+
+                                    </a>
                                     <div class="cart__price">Cart: <span>$0.00</span></div>
 
                                 </div>
@@ -118,7 +129,6 @@
                                     <li>@Html.ActionLink("Shopping Cart", "ShoppingCart", "Home")</li>
                                     <li>@Html.ActionLink("Check Out", "Checkout", "Home")</li>
                                     <li>@Html.ActionLink("Wishlist", "WishList", "Home")</li>
-                                    <li>@Html.ActionLink("Class", "Class", "Home")</li>
                                     <li>@Html.ActionLink("Blog Details", "BlogDetails", "Home")</li>
                                 </ul>
                             </li>                            <li>@Html.ActionLink("Blog", "Blog", "Home")</li>
@@ -154,26 +164,19 @@
                             <a href="#"><img src="~/Content/img/footer-logo.png" alt=""></a>
                         </div>
 
-                        <p style="font-family: Dancing Script, sans-serif;"> Cakes made with love!
-                       
+                        <p style="font-family: Dancing Script, sans-serif;">
+                          
+
                         </p>
 
-                        <div class="footer__social">
-                            <a href="#"><i class="fa fa-facebook"></i></a>
-                            <a href="#"><i class="fa fa-twitter"></i></a>
-                            <a href="#"><i class="fa fa-instagram"></i></a>
-                            <a href="#"><i class="fa fa-youtube-play"></i></a>
-                        </div>
+                        
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-6">
                     <div class="footer__newslatter">
                         <h6>Subscribe</h6>
-                        <p>Get latest updates and offers.</p>
-                        <form action="#">
-                            <input type="text" placeholder="Email">
-                            <button type="submit"><i class="fa fa-send-o"></i></button>
-                        </form>
+                        <p>Satisfy your sweet tooth with our delectable cupcakes. Handcrafted with care and bursting with flavor, they're a treat for the senses..</p>
+                        
                     </div>
                 </div>
             </div>

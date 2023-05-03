@@ -1,0 +1,17 @@
+C:\Users\valer\OneDrive\Desktop\WebCake\WEB-PROJECT\eUseControl\eUseControl.Repositories\bin\Debug\net6.0\eUseControl.Repositories.deps.json
+C:\Users\valer\OneDrive\Desktop\WebCake\WEB-PROJECT\eUseControl\eUseControl.Repositories\bin\Debug\net6.0\eUseControl.Repositories.dll
+C:\Users\valer\OneDrive\Desktop\WebCake\WEB-PROJECT\eUseControl\eUseControl.Repositories\bin\Debug\net6.0\eUseControl.Repositories.pdb
+C:\Users\valer\OneDrive\Desktop\WebCake\WEB-PROJECT\eUseControl\eUseControl.Repositories\obj\Debug\net6.0\eUseControl.Repositories.csproj.AssemblyReference.cache
+C:\Users\valer\OneDrive\Desktop\WebCake\WEB-PROJECT\eUseControl\eUseControl.Repositories\obj\Debug\net6.0\eUseControl.Repositories.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\valer\OneDrive\Desktop\WebCake\WEB-PROJECT\eUseControl\eUseControl.Repositories\obj\Debug\net6.0\eUseControl.Repositories.AssemblyInfoInputs.cache
+C:\Users\valer\OneDrive\Desktop\WebCake\WEB-PROJECT\eUseControl\eUseControl.Repositories\obj\Debug\net6.0\eUseControl.Repositories.AssemblyInfo.cs
+C:\Users\valer\OneDrive\Desktop\WebCake\WEB-PROJECT\eUseControl\eUseControl.Repositories\obj\Debug\net6.0\eUseControl.Repositories.csproj.CoreCompileInputs.cache
+C:\Users\valer\OneDrive\Desktop\WebCake\WEB-PROJECT\eUseControl\eUseControl.Repositories\obj\Debug\net6.0\eUseControl.Repositories.dll
+C:\Users\valer\OneDrive\Desktop\WebCake\WEB-PROJECT\eUseControl\eUseControl.Repositories\obj\Debug\net6.0\refint\eUseControl.Repositories.dll
+C:\Users\valer\OneDrive\Desktop\WebCake\WEB-PROJECT\eUseControl\eUseControl.Repositories\obj\Debug\net6.0\eUseControl.Repositories.pdb
+C:\Users\valer\OneDrive\Desktop\WebCake\WEB-PROJECT\eUseControl\eUseControl.Repositories\obj\Debug\net6.0\ref\eUseControl.Repositories.dll
+C:\Users\valer\OneDrive\Desktop\WebCake\WEB-PROJECT\eUseControl\eUseControl.Repositories\bin\Debug\net6.0\eUseControl.Repositories.runtimeconfig.json
+C:\Users\valer\OneDrive\Desktop\WebCake\WEB-PROJECT\eUseControl\eUseControl.Repositories\bin\Debug\net6.0\eUseControl.DomainModels.dll
+C:\Users\valer\OneDrive\Desktop\WebCake\WEB-PROJECT\eUseControl\eUseControl.Repositories\bin\Debug\net6.0\eUseControl.DomainModels.pdb
+C:\Users\valer\OneDrive\Desktop\WebCake\WEB-PROJECT\eUseControl\eUseControl.Repositories\obj\Debug\net6.0\eUseControl.Repositories.csproj.CopyComplete
+C:\Users\valer\OneDrive\Desktop\WebCake\WEB-PROJECT\eUseControl\eUseControl.Repositories\obj\Debug\net6.0\eUseControl.Repositories.genruntimeconfig.cache

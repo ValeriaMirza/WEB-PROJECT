@@ -1,0 +1,14 @@
+C:\Users\valer\OneDrive\Desktop\WebCake\WEB-PROJECT\eUseControl\eUseControl.ViewModels\bin\Debug\net6.0\eUseControl.ViewModels.deps.json
+C:\Users\valer\OneDrive\Desktop\WebCake\WEB-PROJECT\eUseControl\eUseControl.ViewModels\bin\Debug\net6.0\eUseControl.ViewModels.dll
+C:\Users\valer\OneDrive\Desktop\WebCake\WEB-PROJECT\eUseControl\eUseControl.ViewModels\bin\Debug\net6.0\eUseControl.ViewModels.pdb
+C:\Users\valer\OneDrive\Desktop\WebCake\WEB-PROJECT\eUseControl\eUseControl.ViewModels\obj\Debug\net6.0\eUseControl.ViewModels.csproj.AssemblyReference.cache
+C:\Users\valer\OneDrive\Desktop\WebCake\WEB-PROJECT\eUseControl\eUseControl.ViewModels\obj\Debug\net6.0\eUseControl.ViewModels.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\valer\OneDrive\Desktop\WebCake\WEB-PROJECT\eUseControl\eUseControl.ViewModels\obj\Debug\net6.0\eUseControl.ViewModels.AssemblyInfoInputs.cache
+C:\Users\valer\OneDrive\Desktop\WebCake\WEB-PROJECT\eUseControl\eUseControl.ViewModels\obj\Debug\net6.0\eUseControl.ViewModels.AssemblyInfo.cs
+C:\Users\valer\OneDrive\Desktop\WebCake\WEB-PROJECT\eUseControl\eUseControl.ViewModels\obj\Debug\net6.0\eUseControl.ViewModels.csproj.CoreCompileInputs.cache
+C:\Users\valer\OneDrive\Desktop\WebCake\WEB-PROJECT\eUseControl\eUseControl.ViewModels\obj\Debug\net6.0\eUseControl.ViewModels.dll
+C:\Users\valer\OneDrive\Desktop\WebCake\WEB-PROJECT\eUseControl\eUseControl.ViewModels\obj\Debug\net6.0\refint\eUseControl.ViewModels.dll
+C:\Users\valer\OneDrive\Desktop\WebCake\WEB-PROJECT\eUseControl\eUseControl.ViewModels\obj\Debug\net6.0\eUseControl.ViewModels.pdb
+C:\Users\valer\OneDrive\Desktop\WebCake\WEB-PROJECT\eUseControl\eUseControl.ViewModels\obj\Debug\net6.0\ref\eUseControl.ViewModels.dll
+C:\Users\valer\OneDrive\Desktop\WebCake\WEB-PROJECT\eUseControl\eUseControl.ViewModels\bin\Debug\net6.0\eUseControl.ViewModels.runtimeconfig.json
+C:\Users\valer\OneDrive\Desktop\WebCake\WEB-PROJECT\eUseControl\eUseControl.ViewModels\obj\Debug\net6.0\eUseControl.ViewModels.genruntimeconfig.cache

@@ -624,7 +624,8 @@
     <Content Include="Views\Home\ShopDetails.cshtml" />
     <Content Include="Views\Home\ShoppingCart.cshtml" />
     <Content Include="Views\Home\WishList.cshtml" />
-    <Content Include="Views\Account\Register_Login.cshtml" />
+    <Content Include="Views\Account\Login.cshtml" />
+    <Content Include="Views\Account\Register.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -636,6 +637,20 @@
     <Folder Include="App_Data\" />
     <Folder Include="Model\" />
     <Folder Include="Views\Default\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\eUseControl.BusinessLayer\eUseControl.BusinessLogic.csproj">
+      <Project>{79c972ab-d799-4b3f-9580-9a8047e7ba40}</Project>
+      <Name>eUseControl.BusinessLogic</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\eUseControl.DomainModels\eUseControl.DomainModels.csproj">
+      <Project>{d7417ddd-2a87-4dc7-9112-dbea90f95fa7}</Project>
+      <Name>eUseControl.DomainModels</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\eUseControl.ViewModels\eUseControl.ViewModels.csproj">
+      <Project>{38c62418-1ba2-4349-8d9a-2337a1894128}</Project>
+      <Name>eUseControl.ViewModels</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
