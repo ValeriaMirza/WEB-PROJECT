@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "dDHYfXu4sypzawnn4eU8vvTuvzpmiAWbV8BkGPgdXlvTLT0wFhLrAOWdCrhER7eH9aP50jbgn4C1McQuIrK8Bw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\valer\\OneDrive\\Desktop\\WebCake\\WEB-PROJECT\\eUseControl\\eUseControl.ViewModels\\eUseControl.ViewModels.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\valer\\.nuget\\packages\\entityframework\\6.4.4\\entityframework.6.4.4.nupkg.sha512"
+  ],
+  "logs": []
+}

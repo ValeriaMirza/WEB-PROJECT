@@ -9,7 +9,11 @@ namespace eUseControl.Web.Controllers
     public class AccountController : Controller
     {
         // GET: Acount
-        public ActionResult Register_Login()
+        public ActionResult Register()
+        {
+            return View();
+        }
+        public ActionResult Login()
         {
             return View();
         }

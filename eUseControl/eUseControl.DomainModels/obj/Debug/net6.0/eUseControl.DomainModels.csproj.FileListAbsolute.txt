@@ -1,0 +1,14 @@
+C:\Users\valer\OneDrive\Desktop\WebCake\WEB-PROJECT\eUseControl\eUseControl.DomainModels\bin\Debug\net6.0\eUseControl.DomainModels.deps.json
+C:\Users\valer\OneDrive\Desktop\WebCake\WEB-PROJECT\eUseControl\eUseControl.DomainModels\bin\Debug\net6.0\eUseControl.DomainModels.runtimeconfig.json
+C:\Users\valer\OneDrive\Desktop\WebCake\WEB-PROJECT\eUseControl\eUseControl.DomainModels\bin\Debug\net6.0\eUseControl.DomainModels.dll
+C:\Users\valer\OneDrive\Desktop\WebCake\WEB-PROJECT\eUseControl\eUseControl.DomainModels\bin\Debug\net6.0\eUseControl.DomainModels.pdb
+C:\Users\valer\OneDrive\Desktop\WebCake\WEB-PROJECT\eUseControl\eUseControl.DomainModels\obj\Debug\net6.0\eUseControl.DomainModels.csproj.AssemblyReference.cache
+C:\Users\valer\OneDrive\Desktop\WebCake\WEB-PROJECT\eUseControl\eUseControl.DomainModels\obj\Debug\net6.0\eUseControl.DomainModels.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\valer\OneDrive\Desktop\WebCake\WEB-PROJECT\eUseControl\eUseControl.DomainModels\obj\Debug\net6.0\eUseControl.DomainModels.AssemblyInfoInputs.cache
+C:\Users\valer\OneDrive\Desktop\WebCake\WEB-PROJECT\eUseControl\eUseControl.DomainModels\obj\Debug\net6.0\eUseControl.DomainModels.AssemblyInfo.cs
+C:\Users\valer\OneDrive\Desktop\WebCake\WEB-PROJECT\eUseControl\eUseControl.DomainModels\obj\Debug\net6.0\eUseControl.DomainModels.csproj.CoreCompileInputs.cache
+C:\Users\valer\OneDrive\Desktop\WebCake\WEB-PROJECT\eUseControl\eUseControl.DomainModels\obj\Debug\net6.0\eUseControl.DomainModels.dll
+C:\Users\valer\OneDrive\Desktop\WebCake\WEB-PROJECT\eUseControl\eUseControl.DomainModels\obj\Debug\net6.0\refint\eUseControl.DomainModels.dll
+C:\Users\valer\OneDrive\Desktop\WebCake\WEB-PROJECT\eUseControl\eUseControl.DomainModels\obj\Debug\net6.0\eUseControl.DomainModels.pdb
+C:\Users\valer\OneDrive\Desktop\WebCake\WEB-PROJECT\eUseControl\eUseControl.DomainModels\obj\Debug\net6.0\eUseControl.DomainModels.genruntimeconfig.cache
+C:\Users\valer\OneDrive\Desktop\WebCake\WEB-PROJECT\eUseControl\eUseControl.DomainModels\obj\Debug\net6.0\ref\eUseControl.DomainModels.dll
