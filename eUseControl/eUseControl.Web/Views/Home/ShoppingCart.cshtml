@@ -1,4 +1,5 @@
-﻿
+﻿@using eUseControl.ViewModels;
+
 @{
     ViewBag.Title = "ShoppingCart";
     Layout = "~/Views/Shared/_Layout.cshtml";
@@ -9,128 +10,97 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-8">
+                @model List<CupcakeViewModel>
+
                 <div class="shopping__cart__table">
                     <table>
                         <thead>
                             <tr>
                                 <th>Product</th>
-                                <th>Quantity</th>
+                                <th style="padding-right: 130px;">Quantity</th>
                                 <th>Total</th>
                                 <th></th>
                             </tr>
                         </thead>
                         <tbody>
-                            <tr>
-                                <td class="product__cart__item">
-                                    <div class="product__cart__item__pic">
-                                        <img src="../Content/img/shop/cart/cart-1.jpg" alt="">
-                                    </div>
-                                    <div class="product__cart__item__text">
-                                        <h6>T-shirt Contrast Pocket</h6>
-                                        <h5>$98.49</h5>
-                                    </div>
-                                </td>
-                                <td class="quantity__item">
-                                    <div class="quantity">
-                                        <div class="pro-qty">
-                                            <input type="text" value="1">
+                            @{
+                                var groupedCupcakes = Model.GroupBy(c => c.CupcakeName);
+
+
+
+                            }
+
+                            @foreach (var group in groupedCupcakes)
+                            {
+                                var cupcake = group.First();
+                                var cupcakeName = cupcake.CupcakeName;
+                                var cupcakeID = cupcake.CupcakeID;
+                                var cupcakeQuantity = group.Count();
+
+                                <tr>
+                                    <td class="product__cart__item">
+                                        <div class="product__cart__item__text">
+                                            <h6>@cupcakeName</h6>
+                                            <h6>$ @cupcake.Price</h6>
+                                            
                                         </div>
-                                    </div>
-                                </td>
-                                <td class="cart__price">$ 30.00</td>
-                                <td class="cart__close"><span class="icon_close"></span></td>
-                            </tr>
-                            <tr>
-                                <td class="product__cart__item">
-                                    <div class="product__cart__item__pic">
-                                        <img src="../Content/img/shop/cart/cart-2.jpg" alt="">
-                                    </div>
-                                    <div class="product__cart__item__text">
-                                        <h6>Diagonal Textured Cap</h6>
-                                        <h5>$98.49</h5>
-                                    </div>
-                                </td>
-                                <td class="quantity__item">
-                                    <div class="quantity">
-                                        <div class="pro-qty">
-                                            <input type="text" value="1">
-                                        </div>
-                                    </div>
-                                </td>
-                                <td class="cart__price">$ 32.50</td>
-                                <td class="cart__close"><span class="icon_close"></span></td>
-                            </tr>
-                            <tr>
-                                <td class="product__cart__item">
-                                    <div class="product__cart__item__pic">
-                                        <img src="../Content/img/shop/cart/cart-3.jpg" alt="">
-                                    </div>
-                                    <div class="product__cart__item__text">
-                                        <h6>Basic Flowing Scarf</h6>
-                                        <h5>$98.49</h5>
-                                    </div>
-                                </td>
-                                <td class="quantity__item">
-                                    <div class="quantity">
-                                        <div class="pro-qty">
-                                            <input type="text" value="1">
-                                        </div>
-                                    </div>
-                                </td>
-                                <td class="cart__price">$ 47.00</td>
-                                <td class="cart__close"><span class="icon_close"></span></td>
-                            </tr>
-                            <tr>
-                                <td class="product__cart__item">
-                                    <div class="product__cart__item__pic">
-                                        <img src="../Content/img/shop/cart/cart-4.jpg" alt="">
-                                    </div>
-                                    <div class="product__cart__item__text">
-                                        <h6>Basic Flowing Scarf</h6>
-                                        <h5>$98.49</h5>
-                                    </div>
-                                </td>
-                                <td class="quantity__item">
-                                    <div class="quantity">
-                                        <div class="pro-qty">
-                                            <input type="text" value="1">
-                                        </div>
-                                    </div>
-                                </td>
-                                <td class="cart__price">$ 30.00</td>
-                                <td class="cart__close"><span class="icon_close"></span></td>
-                            </tr>
+                                    </td>
+                                    <td>
+
+
+                                        <h6 style="color:black; padding-left:35px;">@cupcakeQuantity </h6>
+
+
+                                    </td>
+                                    <td class="cart__price">$ @(cupcake.Price * cupcakeQuantity)</td>
+                                    <td class="cart__close">
+                                        <form  action="/home/DeleteCartItem" method="post">
+                                            <input type="hidden"  name="id" value="@cupcakeID" />
+                                            <button type="submit" class="btn btn-danger">Delete</button>
+                                        </form>
+                                    </td>
+
+                                </tr>
+                            }
+
+
                         </tbody>
                     </table>
                 </div>
+
                 <div class="row">
                     <div class="col-lg-6 col-md-6 col-sm-6">
                         <div class="continue__btn">
-                            <a href="#">Continue Shopping</a>
+                            @Html.ActionLink("Continue Shopping", "Shop", "Home", new { @class = "my-class" })
                         </div>
+
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-6">
-                        <div class="continue__btn update__btn">
-                            <a href="#"><i class="fa fa-spinner"></i> Update cart</a>
-                        </div>
+                        
                     </div>
                 </div>
             </div>
             <div class="col-lg-4">
-                <div class="cart__discount">
-                    <h6>Discount codes</h6>
-                    <form action="#">
-                        <input type="text" placeholder="Coupon code">
-                        <button type="submit">Apply</button>
-                    </form>
-                </div>
+
                 <div class="cart__total">
                     <h6>Cart total</h6>
                     <ul>
-                        <li>Subtotal <span>$ 169.50</span></li>
-                        <li>Total <span>$ 169.50</span></li>
+                        @{double totalPrice = 0.0;
+                            foreach (var group in groupedCupcakes)
+                            {
+                                var cupcake = group.First();
+                                var cupcakeQuantity = group.Count();
+                                var totalCupcakePrice = (double)cupcake.Price * cupcakeQuantity;
+                                totalPrice += totalCupcakePrice;
+                            }
+                        }
+
+                        <li>Total <span>$ @totalPrice</span></li>
+
+
                     </ul>
-                    <a href="#" class="primary-btn">Proceed to checkout</a>
+                    @Html.ActionLink("Proceed to checkout", "Checkout", "Home", new { @class = "primary-btn" })
+
                 </div>
             </div>
         </div>
@@ -138,6 +108,23 @@
 </section>
 <!-- Shopping Cart Section End -->
 <!-- Js Plugins -->
+<script>
+$(document).on('click', '.delete-item', function() {
+    var itemId = $(this).data('id');
+    $.ajax({
+        type: 'POST',
+        url: '/itemcart/delete',
+        data: { itemId: itemId },
+        success: function(result) {
+            // refresh the page to update the table
+            location.reload();
+        },
+        error: function() {
+            alert('Failed to delete item from cart.');
+        }
+    });
+});
+</script>
 <script src="../Content/js/jquery-3.3.1.min.js"></script>
 <script src="../Content/js/bootstrap.min.js"></script>
 <script src="../Content/js/jquery.nice-select.min.js"></script>

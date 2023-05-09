@@ -16,9 +16,11 @@ namespace eUseControl.Web
         {
             // Code that runs on application startup
            AreaRegistration.RegisterAllAreas();
-           RouteConfig.RegisterRoutes(RouteTable.Routes);
-
+            UnityConfig.RegisterComponents();
             BundleConfig.RegisterBundles(BundleTable.Bundles);
+            RouteConfig.RegisterRoutes(RouteTable.Routes);
+
+            
         }
     }
 }

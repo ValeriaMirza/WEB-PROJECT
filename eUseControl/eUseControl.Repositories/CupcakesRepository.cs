@@ -12,6 +12,14 @@ namespace eUseControl.Repositories
         void DeleteCupcake(int id);
         List<Cupcake> GetCupcakes();
         Cupcake GetCupcakeById(int id);
+        int InsertCartItem(CartItem item);
+        CartItem GetCartItemById(int id);
+        List<CartItem> GetCartItems();
+        void DeleteCartItem(int cartItemId);
+
+
+
+
     }
     public class CupcakesRepository : ICupcakesRepository
     {
@@ -26,6 +34,24 @@ namespace eUseControl.Repositories
         {
             db.Cupcakes.Add(c);
             db.SaveChanges();
+        }
+
+        public int InsertCartItem(CartItem item)
+        {
+            db.CartItems.Add(item);
+            db.SaveChanges();
+            return item.CartItemID;
+        }
+
+
+        public void DeleteCartItem(int cartItemId)
+        {
+            var cartItem = db.CartItems.Find(cartItemId);
+            if (cartItem != null)
+            {
+               db.CartItems.Remove(cartItem);
+                db.SaveChanges();
+            }
         }
 
         public void UpdateCupcake(Cupcake c)
@@ -62,6 +88,18 @@ namespace eUseControl.Repositories
             Cupcake cupcake = db.Cupcakes.Where(temp => temp.CupcakeID == id).FirstOrDefault();
             return cupcake;
         }
+
+        public CartItem GetCartItemById(int id)
+        {
+            CartItem cartItem = db.CartItems.Where(temp => temp.CartItemID == id).FirstOrDefault();
+            return cartItem;
+        }
+        public List<CartItem> GetCartItems()
+        {
+            List<CartItem> CartItems = db.CartItems.OrderBy(temp => temp.CartItemID).ToList();
+            return CartItems;
+        }
+
     }
 
 }

@@ -1,11 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "GM2VChUE/zzZbaZdmzkUHS1/je2OgyyP/5GJuZXCqB0j1C8n6qpmOCl70IRE+pnjs+BvOFQmOch6Q1WggqY1AA==",
+  "dgSpecHash": "cy/9Mm2ZU+3p+pbbl+EV/DSI5BASPA8um3doooipl08BFzTpYC/SKKZNNOAFuVk1Suw4h8qosM9dOw5/+h7J3w==",
   "success": true,
   "projectFilePath": "C:\\Users\\valer\\OneDrive\\Desktop\\WebCake\\WEB-PROJECT\\eUseControl\\eUseControl.BusinessLayer\\eUseControl.BusinessLogic.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\valer\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
-    "C:\\Users\\valer\\.nuget\\packages\\entityframework\\6.4.4\\entityframework.6.4.4.nupkg.sha512"
+    "C:\\Users\\valer\\.nuget\\packages\\entityframework\\6.4.4\\entityframework.6.4.4.nupkg.sha512",
+    "C:\\Users\\valer\\.nuget\\packages\\microsoft.aspnet.identity.core\\2.2.3\\microsoft.aspnet.identity.core.2.2.3.nupkg.sha512",
+    "C:\\Users\\valer\\.nuget\\packages\\microsoft.aspnet.identity.entityframework\\2.2.3\\microsoft.aspnet.identity.entityframework.2.2.3.nupkg.sha512"
   ],
   "logs": []
 }

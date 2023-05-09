@@ -1,10 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "ZH72SQi668MIdjKE4FAvxU4U9gQ5+qEhcoBzHoV2EL4koriy734W8heCk65CgIkwwIMSW/Q5H9lHU526w5+a+g==",
+  "dgSpecHash": "+e6FNc70e3Qd40GQqKhawwv15Ixbdrr8jgBQVPEZXG+FAeDyHQ+z8ymhFlhpL3Ct9Jh8w/j/+ZlPhVM3GQSiTg==",
   "success": true,
   "projectFilePath": "C:\\Users\\valer\\OneDrive\\Desktop\\WebCake\\WEB-PROJECT\\eUseControl\\eUseControl.DomainModels\\eUseControl.DomainModels.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\valer\\.nuget\\packages\\entityframework\\6.4.4\\entityframework.6.4.4.nupkg.sha512"
+    "C:\\Users\\valer\\.nuget\\packages\\entityframework\\6.4.4\\entityframework.6.4.4.nupkg.sha512",
+    "C:\\Users\\valer\\.nuget\\packages\\microsoft.aspnet.identity.core\\2.2.3\\microsoft.aspnet.identity.core.2.2.3.nupkg.sha512",
+    "C:\\Users\\valer\\.nuget\\packages\\microsoft.aspnet.identity.entityframework\\2.2.3\\microsoft.aspnet.identity.entityframework.2.2.3.nupkg.sha512"
   ],
   "logs": []
 }

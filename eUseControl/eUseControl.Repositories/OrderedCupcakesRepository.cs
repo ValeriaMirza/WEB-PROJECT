@@ -26,6 +26,7 @@ namespace eUseControl.Repositories
 
         public void InsertOrderedCupcake(OrderedCupcake oc)
         {
+            
             db.OrderedCupcakes.Add(oc);
             db.SaveChanges();
         }

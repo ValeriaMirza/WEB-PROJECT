@@ -10,3 +10,5 @@ C:\Users\valer\OneDrive\Desktop\WebCake\WEB-PROJECT\eUseControl\eUseControl.View
 C:\Users\valer\OneDrive\Desktop\WebCake\WEB-PROJECT\eUseControl\eUseControl.ViewModels\obj\Debug\net48\eUseControl.ViewModels.csproj.CopyComplete
 C:\Users\valer\OneDrive\Desktop\WebCake\WEB-PROJECT\eUseControl\eUseControl.ViewModels\obj\Debug\net48\eUseControl.ViewModels.dll
 C:\Users\valer\OneDrive\Desktop\WebCake\WEB-PROJECT\eUseControl\eUseControl.ViewModels\obj\Debug\net48\eUseControl.ViewModels.pdb
+C:\Users\valer\OneDrive\Desktop\WebCake\WEB-PROJECT\eUseControl\eUseControl.ViewModels\bin\Debug\net48\Microsoft.AspNet.Identity.Core.dll
+C:\Users\valer\OneDrive\Desktop\WebCake\WEB-PROJECT\eUseControl\eUseControl.ViewModels\bin\Debug\net48\Microsoft.AspNet.Identity.EntityFramework.dll
