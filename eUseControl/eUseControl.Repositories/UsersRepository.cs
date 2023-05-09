@@ -16,6 +16,8 @@ namespace eUseControl.Repositories
         List<User> GetUsersByEmail(string Email);
         List<User> GetUsersByUserID(int UserID);
         int GetLatestUserID();
+        int GetCurrentUserID(string Email);
+        List<User> GetUsersByUserName(string UserName);
     }
     public class UsersRepository : IUsersRepository
     {
@@ -31,6 +33,20 @@ namespace eUseControl.Repositories
             db.Users.Add(u);
             db.SaveChanges();
         }
+        public int GetCurrentUserID(string UserName)
+        {
+            var user = db.Users.Where(temp => temp.UserName == UserName).FirstOrDefault();
+            if (user != null)
+            {
+                return user.UserID;
+            }
+            else
+            {
+                return 0; // or any other default value indicating that no user was found
+            }
+        }
+
+
 
         public void UpdateUserDetails(User u)
         {
@@ -77,6 +93,11 @@ namespace eUseControl.Repositories
         public List<User> GetUsersByEmail(string Email)
         {
             List<User> us = db.Users.Where(temp => temp.Email == Email).ToList();
+            return us;
+        }
+        public List<User> GetUsersByUserName(string UserName)
+        {
+            List<User> us = db.Users.Where(temp => temp.UserName == UserName).ToList();
             return us;
         }
 

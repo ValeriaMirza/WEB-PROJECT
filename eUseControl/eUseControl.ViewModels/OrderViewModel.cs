@@ -20,7 +20,6 @@ namespace eUseControl.ViewModels
         public string PostalCode { get; set; }
         public string Phone { get; set; }
         public string Email { get; set; }
-        public string AccountPassword { get; set; }
         public DateTime DeliveryDate { get; set; }
         public DateTime OrderDate { get; set; }
         public List<OrderedCupcakeViewModel> OrderedCupcakes { get; set; }

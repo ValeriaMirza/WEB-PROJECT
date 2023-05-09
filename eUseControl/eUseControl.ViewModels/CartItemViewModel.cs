@@ -10,10 +10,12 @@ namespace eUseControl.ViewModels
 {
     public class CartItemViewModel
     {
-        public int Id { get; set; }
-        public string Name { get; set; }
-        public decimal Price { get; set; }
+        [Key]
+        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
+        public int CartItemID { get; set; }
+        public int UserID { get; set; }
+        public int CupcakeID { get; set; }
         public int Quantity { get; set; }
-        public decimal Subtotal { get { return Price * Quantity; } }
+        
     }
 }

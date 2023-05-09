@@ -1,0 +1,99 @@
+﻿@model List<eUseControl.ViewModels.OrderedCupcakeViewModel>
+@{
+    ViewBag.Title = "Ordered Cupcakes";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@{
+    // Define a dictionary to store the CupcakeName and Price for each CupcakeID
+    var cupcakeDict = new Dictionary<int, (string CupcakeName, decimal Price)>
+{
+        { 1, ("DOZEN CUPCAKES", 2.99m) },
+        { 2, ("COOKIES AND CREAM", 2.50m) },
+        { 3, ("GLUTEN FREE MINI DOZEN", 3.25m) },
+        { 4, ("COOKIE DOUGH", 3.50m) },
+        { 5, ("VANILLA SALTED CARAMEL", 2.75m) },
+        { 6, ("GERMAN CHOCOLATE", 3.75m) },
+        { 7, ("DULCE DE LECHE", 3.99m) },
+        { 8, ("MISSISSIPPI", 3.50m) },
+        { 9, ("VEGAN/GLUTEN FREE", 2.95m) },
+        { 10, ("SWEET CELTICS", 4.25m) },
+        { 11, ("SWEET AUTUMN LEAVES", 3.25m) },
+        { 12, ("PALE YELLOW SWEET", 3.50m) }
+    };
+}
+
+<div class="ordered-cupcakes">
+    <h2>Order ID: <span>@Model.FirstOrDefault().OrderID</span></h2>
+    <table class="cupcakes-table">
+        <thead>
+            <tr>
+                <th>Cupcake ID</th>
+                <th>Cupcake Name</th>
+                <th>Price</th>
+                <th>Quantity</th>
+                <th>Total Price</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var cupcakeGroup in Model.GroupBy(c => c.CupcakeID))
+            {
+                var totalQuantity = cupcakeGroup.Sum(c => c.Quantity);
+                var firstCupcake = cupcakeGroup.First();
+                var cupcakeName = cupcakeDict[firstCupcake.CupcakeID].CupcakeName;
+                var price = cupcakeDict[firstCupcake.CupcakeID].Price;
+                var totalPrice = totalQuantity * price;
+
+                <tr>
+                    <td>@firstCupcake.CupcakeID</td>
+                    <td>@cupcakeName</td>
+                    <td>@price</td>
+                    <td>@totalQuantity</td>
+                    <td>@totalPrice</td>
+                </tr>
+            }
+
+            <tr>
+                <td colspan="3"></td>
+                <td><strong>Total</strong></td>
+                <td><strong>@Model.Sum(c => cupcakeDict[c.CupcakeID].Price * c.Quantity)</strong></td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+<style>
+.ordered-cupcakes {
+  margin-top: 20px;
+}
+
+.cupcakes-table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.cupcakes-table th, .cupcakes-table td {
+  text-align: center;
+  padding: 8px;
+  border: 1px solid #ddd;
+}
+
+.cupcakes-table th {
+  background-color: #f2f2f2;
+}
+
+.cupcakes-table td:first-child {
+  font-weight: bold;
+}
+
+.cupcakes-table td:last-child {
+  font-weight: bold;
+}
+
+.cupcakes-table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.cupcakes-table tr:hover {
+  background-color: #ddd;
+}
+</style>

@@ -29,7 +29,7 @@
 </head>
 <body>
 
-    <img src="~/Content/darkmode/moon.png" id="Icon" class="Icon" style="width: 30px; cursor: pointer;background-color:var(--primary-color)">
+    <img src="~/Content/darkmode/moon.png" id="Icon"  class="Icon" style="width: 30px; cursor: pointer;background-color:var(--primary-color)">
 
 
     <!-- Offcanvas Menu Begin -->
@@ -44,7 +44,7 @@
             </div>
             <div class="offcanvas__cart__item">
                 <a href="#"><img src="~/Content/img/icon/cart.png" alt=""> <span>0</span></a>
-                <div class="cart__price">Cart: <span>$0.00</span></div>
+                <div class="cart__price">Cart</div>
             </div>
         </div>
         <div class="offcanvas__logo">
@@ -67,40 +67,59 @@
                     <div class="col-lg-12">
                         <div class="header__top__inner">
                             <div class="header__top__left">
-
-                                <ul>
-
-
-                                    <li> @Html.ActionLink("Log In", "Login", "Account")</li>
-                                    <li> @Html.ActionLink("Register", "Register", "Account")</li>
+                                @if (Session["CurrentUserName"] == null)
+                                {
+                                    <ul>
 
 
+                                        <li> @Html.ActionLink("Log In", "Login", "Account")</li>
+                                        <li> @Html.ActionLink("Register", "Register", "Account")</li>
 
 
-                                </ul>
+
+
+                                    </ul>
+                                }
+                                @if (Session["CurrentUserName"] != null)
+                                {<ul>
+
+                                    <li>Hello, @Session["CurrentUserName"]</li>
+                                     <li> @Html.ActionLink("Log Out", "Logout", "Account")</li>
+                                    @if ((bool)Session["CurrentUserIsAdmin"] == true)
+                                         {
+                                          <li> @Html.ActionLink("Orders", "AllOrders", "Admin")</li>
+                                          }
+                                         </ul>
+                                }
                             </div>
+
                             <div class="header__logo">
                                 <a href="./index.html"><img src="~/Content/img/logo.png" alt=""></a>
                             </div>
                             <div class="header__top__right">
                                 <div class="header__top__right__links">
-                                    
                                    
-                                    <a href="@Url.Action("Wishlist", "Home")" title="hearticon" class="links">
-                                        <img alt="hearticon" src="@Url.Content("../Content/img/icon/heart.png")">
-
-                                    </a>
 
 
-                                </div>
+                                     
+
+                                    </div>
 
                                 <div class="header__top__right__cart">
-                                    
-                                    <a href="@Url.Action("ShoppingCart", "Home")" title="carticon" class="links">
-                                        <img alt="carticon" src="@Url.Content("../Content/img/icon/cart.png")">
+                                    @if (Session["CurrentUserName"] != null)
+                                    {
+                                        <a href="@Url.Action("ShoppingCart", "Home")" title="carticon" class="links">
+                                            <img alt="carticon" src="@Url.Content("../Content/img/icon/cart.png")">
 
-                                    </a>
-                                    <div class="cart__price">Cart: <span>$0.00</span></div>
+                                        </a>
+                                    }
+                                    @if (Session["CurrentUserName"] == null)
+                                    {
+                                        <a href="@Url.Action("Login", "Account")" title="carticon" class="links">
+                                            <img alt="carticon" src="@Url.Content("../Content/img/icon/cart.png")">
+
+                                        </a>
+                                    }
 
                                 </div>
 
@@ -119,19 +138,23 @@
                 <div class="col-lg-12">
                     <nav class="header__menu mobile-menu">
                         <ul>
-                            <li >@Html.ActionLink("Home", "Index", "Home")</li>
+                            <li>@Html.ActionLink("Home", "Index", "Home")</li>
                             <li>@Html.ActionLink("About", "About", "Home")</li>
-                            <li>@Html.ActionLink("Shop", "Shop", "Home")</li>
+                          
+                                <li>@Html.ActionLink("Shop", "Shop", "Home")</li>
+                           
                             <li>
                                 <a href="#">Pages</a>
                                 <ul class="dropdown">
+
                                     <li>@Html.ActionLink("Shop Details", "ShopDetails", "Home")</li>
                                     <li>@Html.ActionLink("Shopping Cart", "ShoppingCart", "Home")</li>
                                     <li>@Html.ActionLink("Check Out", "Checkout", "Home")</li>
-                                    <li>@Html.ActionLink("Wishlist", "WishList", "Home")</li>
+                                    <li>@Html.ActionLink("My Orders", "MyOrder", "Client")</li>
                                     <li>@Html.ActionLink("Blog Details", "BlogDetails", "Home")</li>
                                 </ul>
-                            </li>                            <li>@Html.ActionLink("Blog", "Blog", "Home")</li>
+                            </li>
+                            <li>@Html.ActionLink("Blog", "Blog", "Home")</li>
                             <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
                         </ul>
                     </nav>

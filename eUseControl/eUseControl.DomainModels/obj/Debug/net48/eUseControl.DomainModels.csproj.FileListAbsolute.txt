@@ -10,3 +10,5 @@ C:\Users\valer\OneDrive\Desktop\WebCake\WEB-PROJECT\eUseControl\eUseControl.Doma
 C:\Users\valer\OneDrive\Desktop\WebCake\WEB-PROJECT\eUseControl\eUseControl.DomainModels\obj\Debug\net48\eUseControl.DomainModels.csproj.CopyComplete
 C:\Users\valer\OneDrive\Desktop\WebCake\WEB-PROJECT\eUseControl\eUseControl.DomainModels\obj\Debug\net48\eUseControl.DomainModels.dll
 C:\Users\valer\OneDrive\Desktop\WebCake\WEB-PROJECT\eUseControl\eUseControl.DomainModels\obj\Debug\net48\eUseControl.DomainModels.pdb
+C:\Users\valer\OneDrive\Desktop\WebCake\WEB-PROJECT\eUseControl\eUseControl.DomainModels\bin\Debug\net48\Microsoft.AspNet.Identity.Core.dll
+C:\Users\valer\OneDrive\Desktop\WebCake\WEB-PROJECT\eUseControl\eUseControl.DomainModels\bin\Debug\net48\Microsoft.AspNet.Identity.EntityFramework.dll

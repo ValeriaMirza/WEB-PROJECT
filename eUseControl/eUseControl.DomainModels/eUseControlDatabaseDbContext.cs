@@ -12,6 +12,7 @@ namespace eUseControl.DomainModels
         public DbSet<User> Users { get; set; }
         public DbSet<Order> Orders { get; set; }
         public DbSet<OrderedCupcake> OrderedCupcakes { get; set; }
+        public DbSet<CartItem> CartItems { get; set; }
     }
 
 }

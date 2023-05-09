@@ -17,3 +17,5 @@ C:\Users\valer\OneDrive\Desktop\WebCake\WEB-PROJECT\eUseControl\eUseControl.Busi
 C:\Users\valer\OneDrive\Desktop\WebCake\WEB-PROJECT\eUseControl\eUseControl.BusinessLayer\obj\Debug\net48\eUseControl.BusinessLogic.dll
 C:\Users\valer\OneDrive\Desktop\WebCake\WEB-PROJECT\eUseControl\eUseControl.BusinessLayer\obj\Debug\net48\eUseControl.BusinessLogic.pdb
 C:\Users\valer\OneDrive\Desktop\WebCake\WEB-PROJECT\eUseControl\eUseControl.BusinessLayer\bin\Debug\net48\AutoMapper.dll
+C:\Users\valer\OneDrive\Desktop\WebCake\WEB-PROJECT\eUseControl\eUseControl.BusinessLayer\bin\Debug\net48\Microsoft.AspNet.Identity.Core.dll
+C:\Users\valer\OneDrive\Desktop\WebCake\WEB-PROJECT\eUseControl\eUseControl.BusinessLayer\bin\Debug\net48\Microsoft.AspNet.Identity.EntityFramework.dll

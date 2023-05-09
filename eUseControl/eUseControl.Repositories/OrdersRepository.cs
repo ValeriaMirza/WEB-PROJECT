@@ -1,25 +1,29 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data.Entity;
 using System.Linq;
 using eUseControl.DomainModels;
 
 
 namespace eUseControl.Repositories
 {
-    public interface IOrderRepository
+    public interface IOrdersRepository
     {
         void InsertOrder(Order order);
         void UpdateOrder(Order order);
         void DeleteOrder(int id);
         List<Order> GetOrders();
         Order GetOrderById(int id);
+        void CreateOrder(Order order);
+        int GetLatestOrderId();
+        List<Order> GetOrdersByUserID(int uid);
     }
 
-    public class OrderRepository : IOrderRepository
+    public class OrdersRepository : IOrdersRepository
     {
         eUseControlDatabaseDbContext db;
 
-        public OrderRepository()
+        public OrdersRepository()
         {
             db = new eUseControlDatabaseDbContext();
         }
@@ -29,7 +33,16 @@ namespace eUseControl.Repositories
             db.Orders.Add(order);
             db.SaveChanges();
         }
+        public void CreateOrder(Order order)
+        {
+            db.Orders.Add(order);
+            db.SaveChanges();
+        }
 
+        public int GetLatestOrderId()
+        {
+            return db.Orders.Max(o => o.OrderID);
+        }
         public void UpdateOrder(Order order)
         {
             Order oldOrder = db.Orders.FirstOrDefault(o => o.OrderID == order.OrderID);
@@ -43,7 +56,6 @@ namespace eUseControl.Repositories
                 oldOrder.PostalCode = order.PostalCode;
                 oldOrder.Phone = order.Phone;
                 oldOrder.Email = order.Email;
-                oldOrder.AccountPassword = order.AccountPassword;
                 oldOrder.DeliveryDate = order.DeliveryDate;
                 oldOrder.OrderDate = order.OrderDate;
                 db.SaveChanges();
@@ -70,6 +82,11 @@ namespace eUseControl.Repositories
         {
             Order order = db.Orders.FirstOrDefault(o => o.OrderID == id);
             return order;
+        }
+        public List<Order> GetOrdersByUserID(int uid)
+        {
+            List<Order> orders = db.Orders.Where(o => o.UserID == uid).ToList();
+            return orders ;
         }
     }
 }

@@ -12,3 +12,5 @@ C:\Users\valer\OneDrive\Desktop\WebCake\WEB-PROJECT\eUseControl\eUseControl.Repo
 C:\Users\valer\OneDrive\Desktop\WebCake\WEB-PROJECT\eUseControl\eUseControl.Repositories\obj\Debug\net48\eUseControl.Repositories.csproj.CopyComplete
 C:\Users\valer\OneDrive\Desktop\WebCake\WEB-PROJECT\eUseControl\eUseControl.Repositories\obj\Debug\net48\eUseControl.Repositories.dll
 C:\Users\valer\OneDrive\Desktop\WebCake\WEB-PROJECT\eUseControl\eUseControl.Repositories\obj\Debug\net48\eUseControl.Repositories.pdb
+C:\Users\valer\OneDrive\Desktop\WebCake\WEB-PROJECT\eUseControl\eUseControl.Repositories\bin\Debug\net48\Microsoft.AspNet.Identity.Core.dll
+C:\Users\valer\OneDrive\Desktop\WebCake\WEB-PROJECT\eUseControl\eUseControl.Repositories\bin\Debug\net48\Microsoft.AspNet.Identity.EntityFramework.dll

@@ -95,7 +95,7 @@
             }
 
         .wrapper .btn {
-            margin-top: 30px;
+            display: inline-block;
             background: #000000;
             padding: 12px;
             text-align: center;
@@ -103,18 +103,20 @@
             text-transform: uppercase;
             letter-spacing: 3px;
             font-weight: bold;
+            border: none;
+            cursor: pointer;
+            color: #fff;
         }
+
+            .wrapper .btn a {
+                color: #fff;
+                font-size: 16px;
+            }
 
             .wrapper .btn:hover {
                 background: #1b8cce;
             }
 
-            .wrapper .btn a {
-                color: rgb(255, 255, 255);
-                display: block;
-                font-size: 16px;
-                font-family: sans-serif;
-            }
 
         .icon-button {
             margin-top: 45px;
@@ -131,7 +133,7 @@
                 background: #b8bec7;
             }
 
-             
+
 
                 .icon-button span i {
                     font-size: 25px;
@@ -147,33 +149,49 @@
                     <li class="sign_up_li">Register</li>
                 </ul>
             </div>
+            <form action="/account/login" method="post" class="needs-validation" novalidate="novalidate">
 
-            <div class="sign_in">
+                @Html.AntiForgeryToken()
 
-                <div class="input_field">
-                    <input type="text" placeholder="E-mail" class="input">
+                <div class="sign_in">
+
+                    <div class="input_field">
+
+                        <input type="email" class="input" id="email" placeholder="Email" name="Email" required="required" autofocus="autofocus" ">
+                    </div>
+                    <div class="input_field">
+
+                        <input type="password" class="input" id="pwd" placeholder="Password" name="Password" required="required" minlength="6">
+                    </div>
+
+                    <button class="btn">Log In</button>
+
                 </div>
-                <div class="input_field">
-                    <input type="password" placeholder="Password" class="input">
-                </div>
-                <div class="btn"><a href="#">Log In</a></div>
 
-            </div>
+            </form>
+            <form novalidate="novalidate" action="/account/register" method="post" class="needs-validation">
+                @Html.AntiForgeryToken()
+                <div class="sign_up">
+                    <div class="input_field">
 
-            <div class="sign_up">
-                <div class="input_field">
-                    <input type="text" placeholder="Username" class="input">
-                </div>
-                <div class="input_field">
-                    <input type="text" placeholder="E-mail" class="input">
-                </div>
-                <div class="input_field">
-                    <input type="password" placeholder="Password" class="input">
-                </div>
-                <div class="btn"><a href="#">Register</a></div>
-            </div>
+                        <input type="text" id="txtName" placeholder="UserName" name="UserName" required="required" pattern="^[a-zA-Z ]*$" autofocus="autofocus" class="input" />
 
 
+                    </div>
+                    <div class="input_field">
+
+                        <input type="email" class="input" id="txtEmail" placeholder="Email" name="Email" required="required" />
+
+                    </div>
+                    <div class="input_field">
+
+                        <input type="password" class="input" id="txtPassword" placeholder="Password" name="Password" required="required" minlength="6" />
+
+                    </div>
+                    <button type="submit" class="btn">Register</button>
+                </div>
+
+            </form>
 
         </div>
     </div>

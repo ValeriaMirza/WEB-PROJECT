@@ -10,7 +10,8 @@ namespace eUseControl.ViewModels
 {
     public class AddToCardViewModel
     {
-        public int ProductId { get; set; }
+        public int ProductID { get; set; }
         public int Quantity { get; set; }
+
     }
 }
