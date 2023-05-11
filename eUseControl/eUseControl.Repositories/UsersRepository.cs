@@ -21,11 +21,11 @@ namespace eUseControl.Repositories
     }
     public class UsersRepository : IUsersRepository
     {
-        eUseControlDatabaseDbContext db;
+        eUseControlDataDbContext db;
 
         public UsersRepository()
         {
-            db = new eUseControlDatabaseDbContext();
+            db = new eUseControlDataDbContext();
         }
 
         public void InsertUser(User u)

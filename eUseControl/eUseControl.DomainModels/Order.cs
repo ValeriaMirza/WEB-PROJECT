@@ -12,6 +12,7 @@ namespace eUseControl.DomainModels
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int OrderID { get; set; }
         public int UserID { get; set; }
+        public User User { get; set; }
         public string FirstName { get; set; }
         public string LastName { get; set; }
         public string Country { get; set; }
@@ -20,9 +21,8 @@ namespace eUseControl.DomainModels
         public string PostalCode { get; set; }
         public string Phone { get; set; }
         public string Email { get; set; }
-        public DateTime DeliveryDate { get; set; }
         public DateTime OrderDate { get; set; }
-
-      
+        public ICollection<OrderedCupcake> OrderedCupcakes { get; set; }
     }
+
 }
