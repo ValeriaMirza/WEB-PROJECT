@@ -34,7 +34,7 @@ namespace eUseControl.Web.Controllers
                 Session["CurrentUserEmail"] = rvm.Email;
                 Session["CurrentUserPassword"] = rvm.Password;
                 Session["CurrentUserIsAdmin"] = false;
-                return RedirectToAction("Index", "Home", new { uid = uid });
+                return RedirectToAction("Index", "Home");
             }
             else
             {

@@ -55,7 +55,7 @@ namespace eUseControl.BusinessLogic
             IMapper mapper = config.CreateMapper();
             Order order = mapper.Map<OrderViewModel, Order>(ovm);
             order.OrderDate= DateTime.Now;
-            order.DeliveryDate = DateTime.Now.AddDays(7);
+           
 
             _ordersRepo.CreateOrder(order);
             int orderId = _ordersRepo.GetLatestOrderId();

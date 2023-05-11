@@ -23,11 +23,11 @@ namespace eUseControl.Repositories
     }
     public class CupcakesRepository : ICupcakesRepository
     {
-        eUseControlDatabaseDbContext db;
+        eUseControlDataDbContext db;
 
         public CupcakesRepository()
         {
-            db = new eUseControlDatabaseDbContext();
+            db = new eUseControlDataDbContext();
         }
 
         public void InsertCupcake(Cupcake c)

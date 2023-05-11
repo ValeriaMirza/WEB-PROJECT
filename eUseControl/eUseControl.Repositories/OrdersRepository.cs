@@ -21,11 +21,11 @@ namespace eUseControl.Repositories
 
     public class OrdersRepository : IOrdersRepository
     {
-        eUseControlDatabaseDbContext db;
+        eUseControlDataDbContext db;
 
         public OrdersRepository()
         {
-            db = new eUseControlDatabaseDbContext();
+            db = new eUseControlDataDbContext();
         }
 
         public void InsertOrder(Order order)
@@ -56,7 +56,7 @@ namespace eUseControl.Repositories
                 oldOrder.PostalCode = order.PostalCode;
                 oldOrder.Phone = order.Phone;
                 oldOrder.Email = order.Email;
-                oldOrder.DeliveryDate = order.DeliveryDate;
+           
                 oldOrder.OrderDate = order.OrderDate;
                 db.SaveChanges();
             }

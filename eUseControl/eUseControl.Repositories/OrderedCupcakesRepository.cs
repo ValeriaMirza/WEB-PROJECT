@@ -17,11 +17,11 @@ namespace eUseControl.Repositories
 
     public class OrderedCupcakeRepository : IOrderedCupcakeRepository
     {
-        eUseControlDatabaseDbContext db;
+        eUseControlDataDbContext db;
 
         public OrderedCupcakeRepository()
         {
-            db = new eUseControlDatabaseDbContext();
+            db = new eUseControlDataDbContext();
         }
 
         public void InsertOrderedCupcake(OrderedCupcake oc)
