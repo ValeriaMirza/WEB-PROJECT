@@ -1,10 +1,12 @@
-﻿using eUseControl.BusinessLogic;
-using eUseControl.ViewModels;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using eUseControl.BusinessLogic;
+using eUseControl.ViewModels;
+using eUseControl.DomainModels;
+using Microsoft.AspNet.Identity;
 using eUseControl.CustomFilters;
 
 namespace eUseControl.Web.Controllers
@@ -61,7 +63,7 @@ namespace eUseControl.Web.Controllers
                     Session["CurrentUserID"] = uvm.UserID;
                     Session["CurrentUserName"] = uvm.UserName;
                     Session["CurrentUserEmail"] = uvm.Email;
-                    Session["CurrentUserPassword"] = uvm.Password;
+                    Session["CurrentUserPassword"] = uvm.PasswordHash;
                     Session["CurrentUserIsAdmin"] = uvm.IsAdmin;
 
                     if (uvm.IsAdmin)

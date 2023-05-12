@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "LCWt4oqzqOy5Y/07Q3KfSG/9Y/ewvRtpMsqX7TCuCU+GaRSjmnw1uUiVcAKjpSrfC1IH1qGm4D89ZpG0N6KyMg==",
+  "dgSpecHash": "fSaiJVOCVjbbRCa7YZHzgM5Zx9Rm96dNYMQ64UxJ3/UwE4Ac4XJI6dVILXrTQRG4tqCde0QXhpb04GogoYu72Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Asus\\Desktop\\cakeproject3\\WEB-PROJECT\\eUseControl\\eUseControl.DomainModels\\eUseControl.DomainModels.csproj",
+  "projectFilePath": "C:\\Users\\Asus\\Desktop\\cakeproject4\\WEB-PROJECT\\eUseControl\\eUseControl.DomainModels\\eUseControl.DomainModels.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Asus\\.nuget\\packages\\entityframework\\6.4.4\\entityframework.6.4.4.nupkg.sha512",
     "C:\\Users\\Asus\\.nuget\\packages\\microsoft.aspnet.identity.core\\2.2.3\\microsoft.aspnet.identity.core.2.2.3.nupkg.sha512",

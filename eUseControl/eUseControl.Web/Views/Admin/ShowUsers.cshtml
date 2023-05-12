@@ -1,0 +1,97 @@
+﻿@model List<eUseControl.ViewModels.UserViewModel>
+@{
+    ViewBag.Title = "ShowUsers";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+
+<style>
+    .user-table-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+    }
+
+    .user-table {
+        border-collapse: collapse;
+        width: 100%;
+        margin-bottom: 50px;
+    }
+
+    th, td {
+        padding: 8px;
+        text-align: left;
+        border-bottom: 1px solid #ddd;
+    }
+
+    tr:hover {
+        background-color: #f5f5f5;
+    }
+
+    th {
+        background-color: #000000;
+        color: #f5f5f5
+    }
+
+    .delete-btn {
+        background-color: #dc3545;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        padding: 5px 10px;
+        font-size: 14px;
+        cursor: pointer;
+    }
+
+        .delete-btn:hover {
+            background-color: #c82333;
+        }
+
+    .no-users {
+        font-size: 24px;
+        text-align: center;
+        margin-bottom: 80px;
+        margin-top:150px;
+    }
+</style>
+
+<div class="user-table-container">
+    @if (Model.Any())
+    {
+        <table class="user-table">
+            <thead>
+                <tr>
+                    <th>User ID</th>
+                    <th>Email</th>
+                    <th>Password Hash</th>
+                    <th>UserName</th>
+                    <th>Delete</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var user in Model)
+                {
+                    <tr>
+                        <td>@user.UserID</td>
+                        <td>@user.Email</td>
+                        <td>@user.PasswordHash</td>
+                        <td>@user.UserName</td>
+                        <td>
+                            @using (Html.BeginForm("DeleteUser", "Admin", new { id = user.UserID }, FormMethod.Post))
+                            {
+                                <button type="submit" class="delete-btn">Delete</button>
+                            }
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    }
+    else
+    {
+        <p class="no-users">There are no users yet.</p>
+    }
+</div>
+

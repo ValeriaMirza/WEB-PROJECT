@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "YoRD8BO1hLsRzGoov3LYNfuwe/Tu1g/2r6z6ARJ0U7zYoNC+k6SUmMOb+7zlyW6EPL3LzTkYZZL1DPyIHtK7/g==",
+  "dgSpecHash": "1kXr6XpxE+4lANZacl24DsHDnFw44Cl2ksDbMi/yBZAz8yhbGq2EQnt77PXhvS0HlfxEnIR91BG6VNFTHA2vVA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Asus\\Desktop\\cakeproject3\\WEB-PROJECT\\eUseControl\\eUseControl.BusinessLayer\\eUseControl.BusinessLogic.csproj",
+  "projectFilePath": "C:\\Users\\Asus\\Desktop\\cakeproject4\\WEB-PROJECT\\eUseControl\\eUseControl.BusinessLayer\\eUseControl.BusinessLogic.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Asus\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\Asus\\.nuget\\packages\\entityframework\\6.4.4\\entityframework.6.4.4.nupkg.sha512",

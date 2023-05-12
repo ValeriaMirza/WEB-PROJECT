@@ -26,3 +26,17 @@ C:\Users\Asus\Desktop\cakeproject3\WEB-PROJECT\eUseControl\eUseControl.DomainMod
 C:\Users\Asus\Desktop\cakeproject3\WEB-PROJECT\eUseControl\eUseControl.DomainModels\obj\Debug\net48\eUseControl.DomainModels.csproj.CopyComplete
 C:\Users\Asus\Desktop\cakeproject3\WEB-PROJECT\eUseControl\eUseControl.DomainModels\obj\Debug\net48\eUseControl.DomainModels.dll
 C:\Users\Asus\Desktop\cakeproject3\WEB-PROJECT\eUseControl\eUseControl.DomainModels\obj\Debug\net48\eUseControl.DomainModels.pdb
+C:\Users\Asus\Desktop\cakeproject4\WEB-PROJECT\eUseControl\eUseControl.DomainModels\bin\Debug\net48\eUseControl.DomainModels.dll
+C:\Users\Asus\Desktop\cakeproject4\WEB-PROJECT\eUseControl\eUseControl.DomainModels\bin\Debug\net48\eUseControl.DomainModels.pdb
+C:\Users\Asus\Desktop\cakeproject4\WEB-PROJECT\eUseControl\eUseControl.DomainModels\bin\Debug\net48\EntityFramework.SqlServer.dll
+C:\Users\Asus\Desktop\cakeproject4\WEB-PROJECT\eUseControl\eUseControl.DomainModels\bin\Debug\net48\EntityFramework.dll
+C:\Users\Asus\Desktop\cakeproject4\WEB-PROJECT\eUseControl\eUseControl.DomainModels\bin\Debug\net48\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Asus\Desktop\cakeproject4\WEB-PROJECT\eUseControl\eUseControl.DomainModels\bin\Debug\net48\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Asus\Desktop\cakeproject4\WEB-PROJECT\eUseControl\eUseControl.DomainModels\obj\Debug\net48\eUseControl.DomainModels.csproj.AssemblyReference.cache
+C:\Users\Asus\Desktop\cakeproject4\WEB-PROJECT\eUseControl\eUseControl.DomainModels\obj\Debug\net48\eUseControl.DomainModels.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Asus\Desktop\cakeproject4\WEB-PROJECT\eUseControl\eUseControl.DomainModels\obj\Debug\net48\eUseControl.DomainModels.AssemblyInfoInputs.cache
+C:\Users\Asus\Desktop\cakeproject4\WEB-PROJECT\eUseControl\eUseControl.DomainModels\obj\Debug\net48\eUseControl.DomainModels.AssemblyInfo.cs
+C:\Users\Asus\Desktop\cakeproject4\WEB-PROJECT\eUseControl\eUseControl.DomainModels\obj\Debug\net48\eUseControl.DomainModels.csproj.CoreCompileInputs.cache
+C:\Users\Asus\Desktop\cakeproject4\WEB-PROJECT\eUseControl\eUseControl.DomainModels\obj\Debug\net48\eUseControl.DomainModels.csproj.CopyComplete
+C:\Users\Asus\Desktop\cakeproject4\WEB-PROJECT\eUseControl\eUseControl.DomainModels\obj\Debug\net48\eUseControl.DomainModels.dll
+C:\Users\Asus\Desktop\cakeproject4\WEB-PROJECT\eUseControl\eUseControl.DomainModels\obj\Debug\net48\eUseControl.DomainModels.pdb
