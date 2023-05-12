@@ -69,15 +69,11 @@ namespace eUseControl.Web
                 );
 
                 routes.MapRoute(
-                    name: "WishList",
-                    url: "Wishlist",
-                    defaults: new { controller = "Home", action = "Wishlist" }
+                name: "DeleteUser",
+                url: "Admin/DeleteUser/{id}",
+                defaults: new { controller = "Admin", action = "DeleteUser", id = UrlParameter.Optional }
                 );
-            routes.MapRoute(
-                    name: "Register_Login",
-                    url: "Register_Login",
-                    defaults: new { controller = "Account", action = "Register_Login" }
-                );
+          
 
             routes.MapRoute(
                     name: "Default",

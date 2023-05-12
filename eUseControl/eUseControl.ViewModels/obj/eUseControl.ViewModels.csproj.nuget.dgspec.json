@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Asus\\Desktop\\cakeproject3\\WEB-PROJECT\\eUseControl\\eUseControl.ViewModels\\eUseControl.ViewModels.csproj": {}
+    "C:\\Users\\Asus\\Desktop\\cakeproject4\\WEB-PROJECT\\eUseControl\\eUseControl.ViewModels\\eUseControl.ViewModels.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Asus\\Desktop\\cakeproject3\\WEB-PROJECT\\eUseControl\\eUseControl.ViewModels\\eUseControl.ViewModels.csproj": {
+    "C:\\Users\\Asus\\Desktop\\cakeproject4\\WEB-PROJECT\\eUseControl\\eUseControl.ViewModels\\eUseControl.ViewModels.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Asus\\Desktop\\cakeproject3\\WEB-PROJECT\\eUseControl\\eUseControl.ViewModels\\eUseControl.ViewModels.csproj",
+        "projectUniqueName": "C:\\Users\\Asus\\Desktop\\cakeproject4\\WEB-PROJECT\\eUseControl\\eUseControl.ViewModels\\eUseControl.ViewModels.csproj",
         "projectName": "eUseControl.ViewModels",
-        "projectPath": "C:\\Users\\Asus\\Desktop\\cakeproject3\\WEB-PROJECT\\eUseControl\\eUseControl.ViewModels\\eUseControl.ViewModels.csproj",
+        "projectPath": "C:\\Users\\Asus\\Desktop\\cakeproject4\\WEB-PROJECT\\eUseControl\\eUseControl.ViewModels\\eUseControl.ViewModels.csproj",
         "packagesPath": "C:\\Users\\Asus\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Asus\\Desktop\\cakeproject3\\WEB-PROJECT\\eUseControl\\eUseControl.ViewModels\\obj\\",
+        "outputPath": "C:\\Users\\Asus\\Desktop\\cakeproject4\\WEB-PROJECT\\eUseControl\\eUseControl.ViewModels\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Asus\\AppData\\Roaming\\NuGet\\NuGet.Config",

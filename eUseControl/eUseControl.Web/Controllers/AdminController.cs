@@ -1,10 +1,12 @@
-﻿using eUseControl.BusinessLogic;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using eUseControl.BusinessLogic;
 using eUseControl.ViewModels;
+using eUseControl.DomainModels;
+using Microsoft.AspNet.Identity;
 
 namespace eUseControl.Web.Controllers
 {
@@ -12,12 +14,14 @@ namespace eUseControl.Web.Controllers
     {
         IOrdersService os;
         IOrderedCupcakesService ocs;
-        public AdminController(IOrdersService os, IOrderedCupcakesService ocs)
+        IUsersService us;
+        public AdminController(IOrdersService os, IOrderedCupcakesService ocs, IUsersService us)
         {
             this.os = os; 
             this.ocs = ocs;
+            this.us = us;
         }
-        // GET: Admin
+       
         public ActionResult AllOrders()
         {
             List<OrderViewModel> allOrders  = this.os.GetOrders();
@@ -27,6 +31,21 @@ namespace eUseControl.Web.Controllers
         {
             List<OrderedCupcakeViewModel> orderedCupcakes = this.ocs.GetOrderedCupcakesByOrderId(orderId);
             return View(orderedCupcakes);
+        }
+        public ActionResult ShowUsers()
+        {
+            List<UserViewModel> users = this.us.GetUsers();
+            return View(users);
+        }
+        [HttpPost]
+        public ActionResult DeleteUser(int id)
+        {
+
+            this.us.DeleteUser(id);
+
+
+            return RedirectToAction("Index", "Home");
+
         }
     }
 }

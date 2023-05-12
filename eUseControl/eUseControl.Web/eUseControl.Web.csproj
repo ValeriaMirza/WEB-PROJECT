@@ -663,6 +663,7 @@
     <Content Include="Views\Admin\OrderedCupcakes.cshtml" />
     <Content Include="Views\Client\MyOrder.cshtml" />
     <Content Include="Views\Client\OrderedCupcakesByUser.cshtml" />
+    <Content Include="Views\Admin\ShowUsers.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

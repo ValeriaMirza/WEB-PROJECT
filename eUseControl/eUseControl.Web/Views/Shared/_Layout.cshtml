@@ -83,14 +83,15 @@
                                 @if (Session["CurrentUserName"] != null)
                                 {<ul>
 
-                                    <li>Hello, @Session["CurrentUserName"]</li>
-                                     <li> @Html.ActionLink("Log Out", "Logout", "Account")</li>
-                                    @if ((bool)Session["CurrentUserIsAdmin"] == true)
-                                         {
-                                          <li> @Html.ActionLink("Orders", "AllOrders", "Admin")</li>
-                                          }
-                                         </ul>
-                                }
+                                   <li>Hello, @Session["CurrentUserName"]</li>
+                                    <li> @Html.ActionLink("Log Out", "Logout", "Account")</li>
+                                  @if ((bool)Session["CurrentUserIsAdmin"] == true)
+                                    {
+                                        <li> @Html.ActionLink("Orders", "AllOrders", "Admin")</li>
+                                        <li> @Html.ActionLink("AllUsers", "ShowUsers", "Admin")</li>
+                                    }
+                                </ul>
+                                                                }
                             </div>
 
                             <div class="header__logo">

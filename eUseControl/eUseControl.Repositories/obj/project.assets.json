@@ -177,11 +177,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Asus\\Desktop\\cakeproject3\\WEB-PROJECT\\eUseControl\\eUseControl.Repositories\\eUseControl.Repositories.csproj",
+      "projectUniqueName": "C:\\Users\\Asus\\Desktop\\cakeproject4\\WEB-PROJECT\\eUseControl\\eUseControl.Repositories\\eUseControl.Repositories.csproj",
       "projectName": "eUseControl.Repositories",
-      "projectPath": "C:\\Users\\Asus\\Desktop\\cakeproject3\\WEB-PROJECT\\eUseControl\\eUseControl.Repositories\\eUseControl.Repositories.csproj",
+      "projectPath": "C:\\Users\\Asus\\Desktop\\cakeproject4\\WEB-PROJECT\\eUseControl\\eUseControl.Repositories\\eUseControl.Repositories.csproj",
       "packagesPath": "C:\\Users\\Asus\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Asus\\Desktop\\cakeproject3\\WEB-PROJECT\\eUseControl\\eUseControl.Repositories\\obj\\",
+      "outputPath": "C:\\Users\\Asus\\Desktop\\cakeproject4\\WEB-PROJECT\\eUseControl\\eUseControl.Repositories\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Asus\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -198,8 +198,8 @@
         "net48": {
           "targetAlias": "net48",
           "projectReferences": {
-            "C:\\Users\\Asus\\Desktop\\cakeproject3\\WEB-PROJECT\\eUseControl\\eUseControl.DomainModels\\eUseControl.DomainModels.csproj": {
-              "projectPath": "C:\\Users\\Asus\\Desktop\\cakeproject3\\WEB-PROJECT\\eUseControl\\eUseControl.DomainModels\\eUseControl.DomainModels.csproj"
+            "C:\\Users\\Asus\\Desktop\\cakeproject4\\WEB-PROJECT\\eUseControl\\eUseControl.DomainModels\\eUseControl.DomainModels.csproj": {
+              "projectPath": "C:\\Users\\Asus\\Desktop\\cakeproject4\\WEB-PROJECT\\eUseControl\\eUseControl.DomainModels\\eUseControl.DomainModels.csproj"
             }
           }
         }
