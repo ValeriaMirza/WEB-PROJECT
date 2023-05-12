@@ -44,8 +44,12 @@ namespace eUseControl.Web.Controllers
             this.us.DeleteUser(id);
 
 
-            return RedirectToAction("Index", "Home");
+            return RedirectToAction("YouDeletedTheUser", "Admin");
 
+        }
+        public ActionResult YouDeletedTheUser()
+        {
+            return View();
         }
     }
 }

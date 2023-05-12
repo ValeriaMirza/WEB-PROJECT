@@ -1,13 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "1kXr6XpxE+4lANZacl24DsHDnFw44Cl2ksDbMi/yBZAz8yhbGq2EQnt77PXhvS0HlfxEnIR91BG6VNFTHA2vVA==",
+  "dgSpecHash": "l95F9YimRxf1OQgV8T8Ehca2hOnBjhxb1Mv3E1qvn3Dvz9YkzsuPl9iLcjkFwixOHzcKibM8wtB6cL1rr9rf1w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Asus\\Desktop\\cakeproject4\\WEB-PROJECT\\eUseControl\\eUseControl.BusinessLayer\\eUseControl.BusinessLogic.csproj",
+  "projectFilePath": "C:\\Users\\valer\\OneDrive\\Desktop\\CakeProject10\\WEB-PROJECT\\eUseControl\\eUseControl.BusinessLayer\\eUseControl.BusinessLogic.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Asus\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
-    "C:\\Users\\Asus\\.nuget\\packages\\entityframework\\6.4.4\\entityframework.6.4.4.nupkg.sha512",
-    "C:\\Users\\Asus\\.nuget\\packages\\microsoft.aspnet.identity.core\\2.2.3\\microsoft.aspnet.identity.core.2.2.3.nupkg.sha512",
-    "C:\\Users\\Asus\\.nuget\\packages\\microsoft.aspnet.identity.entityframework\\2.2.3\\microsoft.aspnet.identity.entityframework.2.2.3.nupkg.sha512"
+    "C:\\Users\\valer\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
+    "C:\\Users\\valer\\.nuget\\packages\\entityframework\\6.4.4\\entityframework.6.4.4.nupkg.sha512",
+    "C:\\Users\\valer\\.nuget\\packages\\microsoft.aspnet.identity.core\\2.2.3\\microsoft.aspnet.identity.core.2.2.3.nupkg.sha512",
+    "C:\\Users\\valer\\.nuget\\packages\\microsoft.aspnet.identity.entityframework\\2.2.3\\microsoft.aspnet.identity.entityframework.2.2.3.nupkg.sha512"
   ],
   "logs": []
 }

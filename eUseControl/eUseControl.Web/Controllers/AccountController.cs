@@ -57,7 +57,7 @@ namespace eUseControl.Web.Controllers
         {
             if (ModelState.IsValid)
             {
-                UserViewModel uvm = this.us.GetUsersByEmailAndPassword(lvm.Email, lvm.Password);
+                UserViewModel uvm = this.us.GetUsersByEmailAndPassword(lvm.Email, lvm.PasswordHash);
                 if (uvm != null)
                 {
                     Session["CurrentUserID"] = uvm.UserID;

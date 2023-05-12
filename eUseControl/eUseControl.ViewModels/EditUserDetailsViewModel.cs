@@ -1,10 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using System.ComponentModel.DataAnnotations;
-using System.ComponentModel.DataAnnotations.Schema;
 
 namespace eUseControl.ViewModels
 {
@@ -20,8 +19,6 @@ namespace eUseControl.ViewModels
         [RegularExpression(@"^[a-zA-Z ]*$")]
         public string UserName { get; set; }
 
-        
+       
     }
 }
-
-

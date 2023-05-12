@@ -607,7 +607,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\BundleConfig.cs" />
-    <Compile Include="App_Start\NinjectWebCommon.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\UnityConfig.cs" />
     <Compile Include="Controllers\AccountController.cs" />
@@ -664,6 +663,8 @@
     <Content Include="Views\Client\MyOrder.cshtml" />
     <Content Include="Views\Client\OrderedCupcakesByUser.cshtml" />
     <Content Include="Views\Admin\ShowUsers.cshtml" />
+    <Content Include="Views\Admin\YouDeletedTheUser.cshtml" />
+    <Content Include="Views\Home\ThankYou.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
