@@ -40,7 +40,7 @@ namespace eUseControl.Web.Controllers
             }
             else
             {
-                ModelState.AddModelError("x", "Invalid data");
+                ModelState.AddModelError("x", "");
                 return View();
             }
         }
@@ -57,7 +57,7 @@ namespace eUseControl.Web.Controllers
         {
             if (ModelState.IsValid)
             {
-                UserViewModel uvm = this.us.GetUsersByEmailAndPassword(lvm.Email, lvm.PasswordHash);
+                UserViewModel uvm = this.us.GetUsersByEmailAndPassword(lvm.Email, lvm.Password);
                 if (uvm != null)
                 {
                     Session["CurrentUserID"] = uvm.UserID;
@@ -83,7 +83,7 @@ namespace eUseControl.Web.Controllers
             }
             else
             {
-                ModelState.AddModelError("x", "Invalid Data");
+                ModelState.AddModelError("x", "");
                 return View(lvm);
             }
         }
