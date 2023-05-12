@@ -152,19 +152,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Asus\\.nuget\\packages\\": {}
+    "C:\\Users\\valer\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Asus\\Desktop\\cakeproject4\\WEB-PROJECT\\eUseControl\\eUseControl.DomainModels\\eUseControl.DomainModels.csproj",
+      "projectUniqueName": "C:\\Users\\valer\\OneDrive\\Desktop\\CakeProject10\\WEB-PROJECT\\eUseControl\\eUseControl.DomainModels\\eUseControl.DomainModels.csproj",
       "projectName": "eUseControl.DomainModels",
-      "projectPath": "C:\\Users\\Asus\\Desktop\\cakeproject4\\WEB-PROJECT\\eUseControl\\eUseControl.DomainModels\\eUseControl.DomainModels.csproj",
-      "packagesPath": "C:\\Users\\Asus\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Asus\\Desktop\\cakeproject4\\WEB-PROJECT\\eUseControl\\eUseControl.DomainModels\\obj\\",
+      "projectPath": "C:\\Users\\valer\\OneDrive\\Desktop\\CakeProject10\\WEB-PROJECT\\eUseControl\\eUseControl.DomainModels\\eUseControl.DomainModels.csproj",
+      "packagesPath": "C:\\Users\\valer\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\valer\\OneDrive\\Desktop\\CakeProject10\\WEB-PROJECT\\eUseControl\\eUseControl.DomainModels\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Asus\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\valer\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -199,7 +199,7 @@
             "version": "[2.2.3, )"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
       }
     }
   }

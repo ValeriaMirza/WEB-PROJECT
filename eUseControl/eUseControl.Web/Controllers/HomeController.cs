@@ -77,12 +77,11 @@ namespace eUseControl.Web.Controllers
                 this.DeleteCartItem(ci.CupcakeID);
             }
 
-
-
-
-            return RedirectToAction("Index", "Home");
+            return RedirectToAction("ThankYou", "Home");
         }
-
+        public ActionResult ThankYou()
+        { return View(); 
+        }
 
         public ActionResult Class()
         {
