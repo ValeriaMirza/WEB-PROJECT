@@ -54,3 +54,17 @@ C:\Users\valer\OneDrive\Desktop\CakeProject10\WEB-PROJECT\eUseControl\eUseContro
 C:\Users\valer\OneDrive\Desktop\CakeProject10\WEB-PROJECT\eUseControl\eUseControl.DomainModels\obj\Debug\net48\eUseControl.DomainModels.csproj.CopyComplete
 C:\Users\valer\OneDrive\Desktop\CakeProject10\WEB-PROJECT\eUseControl\eUseControl.DomainModels\obj\Debug\net48\eUseControl.DomainModels.dll
 C:\Users\valer\OneDrive\Desktop\CakeProject10\WEB-PROJECT\eUseControl\eUseControl.DomainModels\obj\Debug\net48\eUseControl.DomainModels.pdb
+D:\UTM\Anul II\Semestrul II\CakeProject2\WEB-PROJECT\eUseControl\eUseControl.DomainModels\bin\Debug\net48\eUseControl.DomainModels.dll
+D:\UTM\Anul II\Semestrul II\CakeProject2\WEB-PROJECT\eUseControl\eUseControl.DomainModels\bin\Debug\net48\eUseControl.DomainModels.pdb
+D:\UTM\Anul II\Semestrul II\CakeProject2\WEB-PROJECT\eUseControl\eUseControl.DomainModels\bin\Debug\net48\EntityFramework.SqlServer.dll
+D:\UTM\Anul II\Semestrul II\CakeProject2\WEB-PROJECT\eUseControl\eUseControl.DomainModels\bin\Debug\net48\EntityFramework.dll
+D:\UTM\Anul II\Semestrul II\CakeProject2\WEB-PROJECT\eUseControl\eUseControl.DomainModels\bin\Debug\net48\Microsoft.AspNet.Identity.Core.dll
+D:\UTM\Anul II\Semestrul II\CakeProject2\WEB-PROJECT\eUseControl\eUseControl.DomainModels\bin\Debug\net48\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\UTM\Anul II\Semestrul II\CakeProject2\WEB-PROJECT\eUseControl\eUseControl.DomainModels\obj\Debug\net48\eUseControl.DomainModels.csproj.AssemblyReference.cache
+D:\UTM\Anul II\Semestrul II\CakeProject2\WEB-PROJECT\eUseControl\eUseControl.DomainModels\obj\Debug\net48\eUseControl.DomainModels.GeneratedMSBuildEditorConfig.editorconfig
+D:\UTM\Anul II\Semestrul II\CakeProject2\WEB-PROJECT\eUseControl\eUseControl.DomainModels\obj\Debug\net48\eUseControl.DomainModels.AssemblyInfoInputs.cache
+D:\UTM\Anul II\Semestrul II\CakeProject2\WEB-PROJECT\eUseControl\eUseControl.DomainModels\obj\Debug\net48\eUseControl.DomainModels.AssemblyInfo.cs
+D:\UTM\Anul II\Semestrul II\CakeProject2\WEB-PROJECT\eUseControl\eUseControl.DomainModels\obj\Debug\net48\eUseControl.DomainModels.csproj.CoreCompileInputs.cache
+D:\UTM\Anul II\Semestrul II\CakeProject2\WEB-PROJECT\eUseControl\eUseControl.DomainModels\obj\Debug\net48\eUseControl.DomainModels.csproj.CopyComplete
+D:\UTM\Anul II\Semestrul II\CakeProject2\WEB-PROJECT\eUseControl\eUseControl.DomainModels\obj\Debug\net48\eUseControl.DomainModels.dll
+D:\UTM\Anul II\Semestrul II\CakeProject2\WEB-PROJECT\eUseControl\eUseControl.DomainModels\obj\Debug\net48\eUseControl.DomainModels.pdb
