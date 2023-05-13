@@ -35,10 +35,7 @@ namespace eUseControl.Web.Controllers
         {
             return View();
         }
-        public ActionResult BlogDetails()
-        {
-            return View();
-        }
+      
         public ActionResult Checkout()
         {
             int uid = (int)Session["CurrentUserID"];
@@ -83,10 +80,7 @@ namespace eUseControl.Web.Controllers
         { return View(); 
         }
 
-        public ActionResult Class()
-        {
-            return View();
-        }
+     
         public ActionResult Contact()
         {
             return View();
@@ -115,10 +109,7 @@ namespace eUseControl.Web.Controllers
 
 
 
-        public ActionResult ShopDetails()
-        {
-            return View();
-        }
+     
       public ActionResult ShoppingCart()
         {
            int uid= (int)Session["CurrentUserID"];
