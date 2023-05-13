@@ -85,11 +85,7 @@
 
                                    <li>Hello, @Session["CurrentUserName"]</li>
                                     <li> @Html.ActionLink("Log Out", "Logout", "Account")</li>
-                                  @if ((bool)Session["CurrentUserIsAdmin"] == true)
-                                    {
-                                        <li> @Html.ActionLink("Orders", "AllOrders", "Admin")</li>
-                                        <li> @Html.ActionLink("AllUsers", "ShowUsers", "Admin")</li>
-                                    }
+                               
                                 </ul>
                                                                 }
                             </div>
@@ -141,15 +137,15 @@
                         <ul>
                             <li>@Html.ActionLink("Home", "Index", "Home")</li>
                             <li>@Html.ActionLink("About", "About", "Home")</li>
-                          
-                                <li>@Html.ActionLink("Shop", "Shop", "Home")</li>
-                           
+
+                            <li>@Html.ActionLink("Shop", "Shop", "Home")</li>
+
                             <li>
                                 <a href="#">Pages</a>
                                 <ul class="dropdown">
 
                                     <li>@Html.ActionLink("Shop Details", "ShopDetails", "Home")</li>
-                                    <li>@Html.ActionLink("Shopping Cart", "ShoppingCart", "Home")</li>
+                                 
                                     <li>@Html.ActionLink("Check Out", "Checkout", "Home")</li>
                                     <li>@Html.ActionLink("My Orders", "MyOrder", "Client")</li>
                                     <li>@Html.ActionLink("Blog Details", "BlogDetails", "Home")</li>
@@ -157,7 +153,23 @@
                             </li>
                             <li>@Html.ActionLink("Blog", "Blog", "Home")</li>
                             <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
-                        </ul>
+                            @if (Session["CurrentUserName"] != null)
+                            {
+
+                                if ((bool)Session["CurrentUserIsAdmin"] == true)
+                                {
+                                    <li>
+                                        <a href="#">Admin</a>
+                                        <ul class="dropdown">
+                                            <li> @Html.ActionLink("Orders", "AllOrders", "Admin")</li>
+                                            <li> @Html.ActionLink("AllUsers", "ShowUsers", "Admin")</li>
+
+                                        </ul>
+                                    </li>
+                                }
+                            }
+
+                            </ul>
                     </nav>
                 </div>
             </div>

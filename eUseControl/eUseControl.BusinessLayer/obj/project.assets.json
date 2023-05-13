@@ -246,19 +246,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\valer\\.nuget\\packages\\": {}
+    "C:\\Users\\Acer\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\valer\\OneDrive\\Desktop\\CakeProject10\\WEB-PROJECT\\eUseControl\\eUseControl.BusinessLayer\\eUseControl.BusinessLogic.csproj",
+      "projectUniqueName": "D:\\UTM\\Anul II\\Semestrul II\\CakeProject2\\WEB-PROJECT\\eUseControl\\eUseControl.BusinessLayer\\eUseControl.BusinessLogic.csproj",
       "projectName": "eUseControl.BusinessLogic",
-      "projectPath": "C:\\Users\\valer\\OneDrive\\Desktop\\CakeProject10\\WEB-PROJECT\\eUseControl\\eUseControl.BusinessLayer\\eUseControl.BusinessLogic.csproj",
-      "packagesPath": "C:\\Users\\valer\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\valer\\OneDrive\\Desktop\\CakeProject10\\WEB-PROJECT\\eUseControl\\eUseControl.BusinessLayer\\obj\\",
+      "projectPath": "D:\\UTM\\Anul II\\Semestrul II\\CakeProject2\\WEB-PROJECT\\eUseControl\\eUseControl.BusinessLayer\\eUseControl.BusinessLogic.csproj",
+      "packagesPath": "C:\\Users\\Acer\\.nuget\\packages\\",
+      "outputPath": "D:\\UTM\\Anul II\\Semestrul II\\CakeProject2\\WEB-PROJECT\\eUseControl\\eUseControl.BusinessLayer\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\valer\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Acer\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -272,14 +277,14 @@
         "net48": {
           "targetAlias": "net48",
           "projectReferences": {
-            "C:\\Users\\valer\\OneDrive\\Desktop\\CakeProject10\\WEB-PROJECT\\eUseControl\\eUseControl.DomainModels\\eUseControl.DomainModels.csproj": {
-              "projectPath": "C:\\Users\\valer\\OneDrive\\Desktop\\CakeProject10\\WEB-PROJECT\\eUseControl\\eUseControl.DomainModels\\eUseControl.DomainModels.csproj"
+            "D:\\UTM\\Anul II\\Semestrul II\\CakeProject2\\WEB-PROJECT\\eUseControl\\eUseControl.DomainModels\\eUseControl.DomainModels.csproj": {
+              "projectPath": "D:\\UTM\\Anul II\\Semestrul II\\CakeProject2\\WEB-PROJECT\\eUseControl\\eUseControl.DomainModels\\eUseControl.DomainModels.csproj"
             },
-            "C:\\Users\\valer\\OneDrive\\Desktop\\CakeProject10\\WEB-PROJECT\\eUseControl\\eUseControl.Repositories\\eUseControl.Repositories.csproj": {
-              "projectPath": "C:\\Users\\valer\\OneDrive\\Desktop\\CakeProject10\\WEB-PROJECT\\eUseControl\\eUseControl.Repositories\\eUseControl.Repositories.csproj"
+            "D:\\UTM\\Anul II\\Semestrul II\\CakeProject2\\WEB-PROJECT\\eUseControl\\eUseControl.Repositories\\eUseControl.Repositories.csproj": {
+              "projectPath": "D:\\UTM\\Anul II\\Semestrul II\\CakeProject2\\WEB-PROJECT\\eUseControl\\eUseControl.Repositories\\eUseControl.Repositories.csproj"
             },
-            "C:\\Users\\valer\\OneDrive\\Desktop\\CakeProject10\\WEB-PROJECT\\eUseControl\\eUseControl.ViewModels\\eUseControl.ViewModels.csproj": {
-              "projectPath": "C:\\Users\\valer\\OneDrive\\Desktop\\CakeProject10\\WEB-PROJECT\\eUseControl\\eUseControl.ViewModels\\eUseControl.ViewModels.csproj"
+            "D:\\UTM\\Anul II\\Semestrul II\\CakeProject2\\WEB-PROJECT\\eUseControl\\eUseControl.ViewModels\\eUseControl.ViewModels.csproj": {
+              "projectPath": "D:\\UTM\\Anul II\\Semestrul II\\CakeProject2\\WEB-PROJECT\\eUseControl\\eUseControl.ViewModels\\eUseControl.ViewModels.csproj"
             }
           }
         }
@@ -307,7 +312,7 @@
             "version": "[2.2.3, )"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
       }
     }
   }

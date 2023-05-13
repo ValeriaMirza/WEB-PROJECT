@@ -82,3 +82,24 @@ C:\Users\valer\OneDrive\Desktop\CakeProject10\WEB-PROJECT\eUseControl\eUseContro
 C:\Users\valer\OneDrive\Desktop\CakeProject10\WEB-PROJECT\eUseControl\eUseControl.BusinessLayer\obj\Debug\net48\eUseControl.BusinessLogic.csproj.CopyComplete
 C:\Users\valer\OneDrive\Desktop\CakeProject10\WEB-PROJECT\eUseControl\eUseControl.BusinessLayer\obj\Debug\net48\eUseControl.BusinessLogic.dll
 C:\Users\valer\OneDrive\Desktop\CakeProject10\WEB-PROJECT\eUseControl\eUseControl.BusinessLayer\obj\Debug\net48\eUseControl.BusinessLogic.pdb
+D:\UTM\Anul II\Semestrul II\CakeProject2\WEB-PROJECT\eUseControl\eUseControl.BusinessLayer\bin\Debug\net48\eUseControl.BusinessLogic.dll
+D:\UTM\Anul II\Semestrul II\CakeProject2\WEB-PROJECT\eUseControl\eUseControl.BusinessLayer\bin\Debug\net48\eUseControl.BusinessLogic.pdb
+D:\UTM\Anul II\Semestrul II\CakeProject2\WEB-PROJECT\eUseControl\eUseControl.BusinessLayer\bin\Debug\net48\AutoMapper.dll
+D:\UTM\Anul II\Semestrul II\CakeProject2\WEB-PROJECT\eUseControl\eUseControl.BusinessLayer\bin\Debug\net48\EntityFramework.SqlServer.dll
+D:\UTM\Anul II\Semestrul II\CakeProject2\WEB-PROJECT\eUseControl\eUseControl.BusinessLayer\bin\Debug\net48\EntityFramework.dll
+D:\UTM\Anul II\Semestrul II\CakeProject2\WEB-PROJECT\eUseControl\eUseControl.BusinessLayer\bin\Debug\net48\Microsoft.AspNet.Identity.Core.dll
+D:\UTM\Anul II\Semestrul II\CakeProject2\WEB-PROJECT\eUseControl\eUseControl.BusinessLayer\bin\Debug\net48\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\UTM\Anul II\Semestrul II\CakeProject2\WEB-PROJECT\eUseControl\eUseControl.BusinessLayer\bin\Debug\net48\eUseControl.DomainModels.dll
+D:\UTM\Anul II\Semestrul II\CakeProject2\WEB-PROJECT\eUseControl\eUseControl.BusinessLayer\bin\Debug\net48\eUseControl.Repositories.dll
+D:\UTM\Anul II\Semestrul II\CakeProject2\WEB-PROJECT\eUseControl\eUseControl.BusinessLayer\bin\Debug\net48\eUseControl.ViewModels.dll
+D:\UTM\Anul II\Semestrul II\CakeProject2\WEB-PROJECT\eUseControl\eUseControl.BusinessLayer\bin\Debug\net48\eUseControl.DomainModels.pdb
+D:\UTM\Anul II\Semestrul II\CakeProject2\WEB-PROJECT\eUseControl\eUseControl.BusinessLayer\bin\Debug\net48\eUseControl.Repositories.pdb
+D:\UTM\Anul II\Semestrul II\CakeProject2\WEB-PROJECT\eUseControl\eUseControl.BusinessLayer\bin\Debug\net48\eUseControl.ViewModels.pdb
+D:\UTM\Anul II\Semestrul II\CakeProject2\WEB-PROJECT\eUseControl\eUseControl.BusinessLayer\obj\Debug\net48\eUseControl.BusinessLogic.csproj.AssemblyReference.cache
+D:\UTM\Anul II\Semestrul II\CakeProject2\WEB-PROJECT\eUseControl\eUseControl.BusinessLayer\obj\Debug\net48\eUseControl.BusinessLogic.GeneratedMSBuildEditorConfig.editorconfig
+D:\UTM\Anul II\Semestrul II\CakeProject2\WEB-PROJECT\eUseControl\eUseControl.BusinessLayer\obj\Debug\net48\eUseControl.BusinessLogic.AssemblyInfoInputs.cache
+D:\UTM\Anul II\Semestrul II\CakeProject2\WEB-PROJECT\eUseControl\eUseControl.BusinessLayer\obj\Debug\net48\eUseControl.BusinessLogic.AssemblyInfo.cs
+D:\UTM\Anul II\Semestrul II\CakeProject2\WEB-PROJECT\eUseControl\eUseControl.BusinessLayer\obj\Debug\net48\eUseControl.BusinessLogic.csproj.CoreCompileInputs.cache
+D:\UTM\Anul II\Semestrul II\CakeProject2\WEB-PROJECT\eUseControl\eUseControl.BusinessLayer\obj\Debug\net48\eUseControl.BusinessLogic.csproj.CopyComplete
+D:\UTM\Anul II\Semestrul II\CakeProject2\WEB-PROJECT\eUseControl\eUseControl.BusinessLayer\obj\Debug\net48\eUseControl.BusinessLogic.dll
+D:\UTM\Anul II\Semestrul II\CakeProject2\WEB-PROJECT\eUseControl\eUseControl.BusinessLayer\obj\Debug\net48\eUseControl.BusinessLogic.pdb
