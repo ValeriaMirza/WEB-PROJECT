@@ -3,6 +3,12 @@ Aplicația WEB dezvoltată își propune să faciliteze procesul de preluare a c
 ## Demo
 
 ![indexpage](https://github.com/ValeriaMirza/WEB-PROJECT/assets/87279317/6c7da8bf-20e3-49fb-adfd-bac747b55e38)
+
+
+https://github.com/ValeriaMirza/WEB-PROJECT/assets/87279317/ed00c078-21de-4c9f-aec9-b497a467968b
+
+
+
 ## Development/Setup
 Instruncțiuni despre cum să pornim proiectul
 
