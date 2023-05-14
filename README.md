@@ -8,6 +8,11 @@ Pagina de pornire a aplicației este afișată în momentul în care aceasta est
 https://github.com/ValeriaMirza/WEB-PROJECT/assets/87279317/ed00c078-21de-4c9f-aec9-b497a467968b
 
 
+În ceea ce privește procesul de comandă a produselor din aplicație, utilizatorul are posibilitatea să aleagă dintr-o gamă largă de prăjituri și să plaseze în coșul de cumpărături produsele dorite. În plus, el poate șterge orice produs din coș în cazul în care decide să nu-l mai cumpere.
+Odată ce utilizatorul a decis ce produse să comande, el poate apăsa butonul "Proceed to checkout" pentru a fi redirecționat la pagina de finalizare a comenzii, numită "Checkout Page". Aici, el trebuie să introducă datele personale, cum ar fi adresa de livrare, metoda de plată și alte informații relevante, apoi poate plasa comanda.
+
+https://github.com/ValeriaMirza/WEB-PROJECT/assets/87279317/f254cbad-8638-4fd4-aa55-466a3df8cfed
+
 
 ## Development/Setup
 Instruncțiuni despre cum să pornim proiectul
