@@ -82,3 +82,17 @@ C:\Users\User\Desktop\cakeproject\WEB-PROJECT\eUseControl\eUseControl.ViewModels
 C:\Users\User\Desktop\cakeproject\WEB-PROJECT\eUseControl\eUseControl.ViewModels\obj\Debug\net48\eUseControl.ViewModels.csproj.CopyComplete
 C:\Users\User\Desktop\cakeproject\WEB-PROJECT\eUseControl\eUseControl.ViewModels\obj\Debug\net48\eUseControl.ViewModels.dll
 C:\Users\User\Desktop\cakeproject\WEB-PROJECT\eUseControl\eUseControl.ViewModels\obj\Debug\net48\eUseControl.ViewModels.pdb
+C:\Users\valer\OneDrive\Desktop\cake project 300\WEB-PROJECT\eUseControl\eUseControl.ViewModels\bin\Debug\net48\eUseControl.ViewModels.dll
+C:\Users\valer\OneDrive\Desktop\cake project 300\WEB-PROJECT\eUseControl\eUseControl.ViewModels\bin\Debug\net48\eUseControl.ViewModels.pdb
+C:\Users\valer\OneDrive\Desktop\cake project 300\WEB-PROJECT\eUseControl\eUseControl.ViewModels\bin\Debug\net48\EntityFramework.SqlServer.dll
+C:\Users\valer\OneDrive\Desktop\cake project 300\WEB-PROJECT\eUseControl\eUseControl.ViewModels\bin\Debug\net48\EntityFramework.dll
+C:\Users\valer\OneDrive\Desktop\cake project 300\WEB-PROJECT\eUseControl\eUseControl.ViewModels\bin\Debug\net48\Microsoft.AspNet.Identity.Core.dll
+C:\Users\valer\OneDrive\Desktop\cake project 300\WEB-PROJECT\eUseControl\eUseControl.ViewModels\bin\Debug\net48\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\valer\OneDrive\Desktop\cake project 300\WEB-PROJECT\eUseControl\eUseControl.ViewModels\obj\Debug\net48\eUseControl.ViewModels.csproj.AssemblyReference.cache
+C:\Users\valer\OneDrive\Desktop\cake project 300\WEB-PROJECT\eUseControl\eUseControl.ViewModels\obj\Debug\net48\eUseControl.ViewModels.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\valer\OneDrive\Desktop\cake project 300\WEB-PROJECT\eUseControl\eUseControl.ViewModels\obj\Debug\net48\eUseControl.ViewModels.AssemblyInfoInputs.cache
+C:\Users\valer\OneDrive\Desktop\cake project 300\WEB-PROJECT\eUseControl\eUseControl.ViewModels\obj\Debug\net48\eUseControl.ViewModels.AssemblyInfo.cs
+C:\Users\valer\OneDrive\Desktop\cake project 300\WEB-PROJECT\eUseControl\eUseControl.ViewModels\obj\Debug\net48\eUseControl.ViewModels.csproj.CoreCompileInputs.cache
+C:\Users\valer\OneDrive\Desktop\cake project 300\WEB-PROJECT\eUseControl\eUseControl.ViewModels\obj\Debug\net48\eUseControl.ViewModels.csproj.CopyComplete
+C:\Users\valer\OneDrive\Desktop\cake project 300\WEB-PROJECT\eUseControl\eUseControl.ViewModels\obj\Debug\net48\eUseControl.ViewModels.dll
+C:\Users\valer\OneDrive\Desktop\cake project 300\WEB-PROJECT\eUseControl\eUseControl.ViewModels\obj\Debug\net48\eUseControl.ViewModels.pdb
