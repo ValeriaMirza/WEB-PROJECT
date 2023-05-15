@@ -11,7 +11,25 @@ https://github.com/ValeriaMirza/WEB-PROJECT/assets/87279317/ed00c078-21de-4c9f-a
 În ceea ce privește procesul de comandă a produselor din aplicație, utilizatorul are posibilitatea să aleagă dintr-o gamă largă de prăjituri și să plaseze în coșul de cumpărături produsele dorite. În plus, el poate șterge orice produs din coș în cazul în care decide să nu-l mai cumpere.
 Odată ce utilizatorul a decis ce produse să comande, el poate apăsa butonul "Proceed to checkout" pentru a fi redirecționat la pagina de finalizare a comenzii, numită "Checkout Page". Aici, el trebuie să introducă datele personale, cum ar fi adresa de livrare, metoda de plată și alte informații relevante, apoi poate plasa comanda.
 
-https://github.com/ValeriaMirza/WEB-PROJECT/assets/87279317/f254cbad-8638-4fd4-aa55-466a3df8cfed
+
+https://github.com/ValeriaMirza/WEB-PROJECT/assets/87279317/5fe8ae5a-e03d-48e8-9b5c-072e5e070e94
+
+
+Utilizatorul are posibilitatea să vizualizeze istoricul comenzilor apăsând pe butonul ,,My Orders".
+
+![myorders](https://github.com/ValeriaMirza/WEB-PROJECT/assets/87279317/c3e166ce-aecd-4b2a-b5b8-bce0ce95ce05)
+
+Pentru a vizualiza prăjiturile comandate, utilizatorul poate apăsa pe butonul ,,Click'' din secțiunea ,,Ordered Cupcakes''.
+
+![orderedcupcakes](https://github.com/ValeriaMirza/WEB-PROJECT/assets/87279317/7074135d-31f9-4f0c-979b-3c3d26d536d9)
+
+Spre deosebire de un utilizator  obișnuit, administratorul are permisiuni mult mai avansate. El are posibilitatea de a vizualiza toți utilizatorii Website-ului și de a-i șterge.
+
+![ALLUSERS](https://github.com/ValeriaMirza/WEB-PROJECT/assets/87279317/8084dcd7-ebbc-442e-ba61-b41c6de380cc)
+
+în plus, administratorul poate vizualiza toate comenzilor înregistrate de la toți utilizatorii.
+
+![orders](https://github.com/ValeriaMirza/WEB-PROJECT/assets/87279317/fec24215-3f28-4ef2-8ae5-7cbef64b5001)
 
 
 ## Development/Setup
