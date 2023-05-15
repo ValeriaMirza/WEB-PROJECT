@@ -23,7 +23,7 @@ Pentru a vizualiza prăjiturile comandate, utilizatorul poate apăsa pe butonul 
 
 ![orderedcupcakes](https://github.com/ValeriaMirza/WEB-PROJECT/assets/87279317/7074135d-31f9-4f0c-979b-3c3d26d536d9)
 
-Spre deosebire de un utilizator  obișnuit, administratorul are permisiuni mult mai avansate. El are posibilitatea de a vizualiza toți utilizatorii Website-ului și de a-i șterge.
+Spre deosebire de un utilizator  obișnuit, administratorul are permisiuni mult mai avansate. El are posibilitatea de a vizualiza toți utilizatorii Website-ului și de a-i șterge. 
 
 ![ALLUSERS](https://github.com/ValeriaMirza/WEB-PROJECT/assets/87279317/8084dcd7-ebbc-442e-ba61-b41c6de380cc)
 
@@ -33,9 +33,11 @@ Spre deosebire de un utilizator  obișnuit, administratorul are permisiuni mult 
 
 
 ## Development/Setup
-Instruncțiuni despre cum să pornim proiectul
 
-Listați programele și versiunile necesare pentru a putea porni și dezvolta proiectul
+Pentru a porni proiectul este necesar de a avea instalat în calculator Visual Studio 2022. Pentru ca proiectul să ruleze VS trebuie să conțină workload-ul ASP.NET and Web Development. Target Framework-ul utilizat este .NET FRAMEWORK Versiune 4.8. Pentru a putea face conexiunea cu baza de date este necesară instalarea ,,SQL Server Management Studio Management Studio 19''.
+
 ## Team/Echipă
-Lista de studenți care au contribuit la acest proiect
-adăugați alte secții și sub secții după caz
+Mîrza Valeria, grupa TI-213
+Felicia Stavriu, grupa Ti-211
+Racu Cristian, TI-213
+Onica Damian, TI-213
