@@ -78,3 +78,19 @@ D:\UTM\Anul II\Semestrul II\CakeProject2\WEB-PROJECT\eUseControl\eUseControl.Rep
 D:\UTM\Anul II\Semestrul II\CakeProject2\WEB-PROJECT\eUseControl\eUseControl.Repositories\obj\Debug\net48\eUseControl.Repositories.csproj.CopyComplete
 D:\UTM\Anul II\Semestrul II\CakeProject2\WEB-PROJECT\eUseControl\eUseControl.Repositories\obj\Debug\net48\eUseControl.Repositories.dll
 D:\UTM\Anul II\Semestrul II\CakeProject2\WEB-PROJECT\eUseControl\eUseControl.Repositories\obj\Debug\net48\eUseControl.Repositories.pdb
+C:\Users\User\Desktop\cakeproject\WEB-PROJECT\eUseControl\eUseControl.Repositories\bin\Debug\net48\eUseControl.Repositories.dll
+C:\Users\User\Desktop\cakeproject\WEB-PROJECT\eUseControl\eUseControl.Repositories\bin\Debug\net48\eUseControl.Repositories.pdb
+C:\Users\User\Desktop\cakeproject\WEB-PROJECT\eUseControl\eUseControl.Repositories\bin\Debug\net48\EntityFramework.SqlServer.dll
+C:\Users\User\Desktop\cakeproject\WEB-PROJECT\eUseControl\eUseControl.Repositories\bin\Debug\net48\EntityFramework.dll
+C:\Users\User\Desktop\cakeproject\WEB-PROJECT\eUseControl\eUseControl.Repositories\bin\Debug\net48\Microsoft.AspNet.Identity.Core.dll
+C:\Users\User\Desktop\cakeproject\WEB-PROJECT\eUseControl\eUseControl.Repositories\bin\Debug\net48\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\User\Desktop\cakeproject\WEB-PROJECT\eUseControl\eUseControl.Repositories\bin\Debug\net48\eUseControl.DomainModels.dll
+C:\Users\User\Desktop\cakeproject\WEB-PROJECT\eUseControl\eUseControl.Repositories\bin\Debug\net48\eUseControl.DomainModels.pdb
+C:\Users\User\Desktop\cakeproject\WEB-PROJECT\eUseControl\eUseControl.Repositories\obj\Debug\net48\eUseControl.Repositories.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\cakeproject\WEB-PROJECT\eUseControl\eUseControl.Repositories\obj\Debug\net48\eUseControl.Repositories.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\cakeproject\WEB-PROJECT\eUseControl\eUseControl.Repositories\obj\Debug\net48\eUseControl.Repositories.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\cakeproject\WEB-PROJECT\eUseControl\eUseControl.Repositories\obj\Debug\net48\eUseControl.Repositories.AssemblyInfo.cs
+C:\Users\User\Desktop\cakeproject\WEB-PROJECT\eUseControl\eUseControl.Repositories\obj\Debug\net48\eUseControl.Repositories.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\cakeproject\WEB-PROJECT\eUseControl\eUseControl.Repositories\obj\Debug\net48\eUseControl.Repositories.csproj.CopyComplete
+C:\Users\User\Desktop\cakeproject\WEB-PROJECT\eUseControl\eUseControl.Repositories\obj\Debug\net48\eUseControl.Repositories.dll
+C:\Users\User\Desktop\cakeproject\WEB-PROJECT\eUseControl\eUseControl.Repositories\obj\Debug\net48\eUseControl.Repositories.pdb

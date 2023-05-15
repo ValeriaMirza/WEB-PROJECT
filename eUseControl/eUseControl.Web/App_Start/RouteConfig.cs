@@ -26,11 +26,7 @@ namespace eUseControl.Web
                     defaults: new { controller = "Home", action = "Blog" }
                 );
 
-                routes.MapRoute(
-                    name: "BlogDetails",
-                    url: "BlogDetails",
-                    defaults: new { controller = "Home", action = "BlogDetails" }
-                );
+            
 
                 routes.MapRoute(
                     name: "Checkout",
