@@ -9,9 +9,9 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-12">
-                <div class="about__video set-bg" data-setbg="../Content/img/about-video.jpg">
-                    <a href="https://www.youtube.com/watch?v=8PJ3_p7VqHw&list=RD8PJ3_p7VqHw&start_radio=1"
-                       class="play-btn video-popup"><i class="fa fa-play"></i></a>
+                <div class="about__video set-bg" >
+                     <img src = "../Content/img/about-video.jpg">
+                   
                 </div>
             </div>
         </div>
@@ -289,6 +289,28 @@
         </div>
     </div>
 </section>
+<script>
+    // Add a click event listener to the play button
+    var playButton = document.querySelector('.play-btn');
+    playButton.addEventListener('click', function (event) {
+        event.preventDefault();
+
+        // Get the YouTube video URL from the href attribute
+        var videoUrl = playButton.getAttribute('href');
+
+        // Create an iframe element and set its source to the YouTube video URL
+        var iframe = document.createElement('iframe');
+        iframe.src = videoUrl;
+        iframe.width = '100%';
+        iframe.height = '100%';
+        iframe.allowfullscreen = true;
+
+        // Replace the video container with the iframe
+        var videoContainer = document.querySelector('.about__video');
+        videoContainer.innerHTML = '';
+        videoContainer.appendChild(iframe);
+    });
+</script>
 <!-- Team Section End -->
 <!-- Js Plugins -->
 <script src="~/Content/js/jquery-3.3.1.min.js"></script>

@@ -94,15 +94,7 @@ namespace eUseControl.Web.Controllers
             return RedirectToAction("Index", "Home");
         }
 
-        [UserAuthorizationFilterAttribute]
-        public ActionResult ChangeProfile()
-        {
-            int uid = Convert.ToInt32(Session["CurrentUserID"]);
-            UserViewModel uvm = this.us.GetUsersByUserID(uid);
-            EditUserDetailsViewModel eudvm = new EditUserDetailsViewModel() { UserName = uvm.UserName, Email = uvm.Email,  UserID = uvm.UserID };
-            return View(eudvm);
-        }
-
+     
    
 
     }

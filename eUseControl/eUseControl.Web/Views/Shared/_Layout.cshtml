@@ -29,9 +29,7 @@
 </head>
 <body>
 
-    <img src="~/Content/darkmode/moon.png" id="Icon"  class="Icon" style="width: 30px; cursor: pointer;background-color:var(--primary-color)">
-
-
+    <!-- <img src="~/Content/darkmode/moon.png" id="Icon"  class="Icon" style="width: 30px; cursor: pointer;background-color:var(--primary-color)"> -->
     <!-- Offcanvas Menu Begin -->
 
 
@@ -53,7 +51,7 @@
         <div id="mobile-menu-wrap"></div>
         <div class="offcanvas__option">
             <ul>
-               
+
                 <li><a href="#">Sign in</a> <span class="arrow_carrot-down"></span></li>
             </ul>
         </div>
@@ -83,11 +81,11 @@
                                 @if (Session["CurrentUserName"] != null)
                                 {<ul>
 
-                                   <li>Hello, @Session["CurrentUserName"]</li>
-                                    <li> @Html.ActionLink("Log Out", "Logout", "Account")</li>
-                               
-                                </ul>
-                                                                }
+                                        <li>Hello, @Session["CurrentUserName"]</li>
+                                        <li> @Html.ActionLink("Log Out", "Logout", "Account")</li>
+
+                                    </ul>
+                                }
                             </div>
 
                             <div class="header__logo">
@@ -95,12 +93,12 @@
                             </div>
                             <div class="header__top__right">
                                 <div class="header__top__right__links">
-                                   
 
 
-                                     
 
-                                    </div>
+
+
+                                </div>
 
                                 <div class="header__top__right__cart">
                                     @if (Session["CurrentUserName"] != null)
@@ -110,7 +108,7 @@
 
                                         </a>
                                     }
-                              
+
 
                                 </div>
 
@@ -140,23 +138,23 @@
                             {
                                 <li>@Html.ActionLink("My Orders", "MyOrder", "Client")</li>
                             }
-                                @if (Session["CurrentUserName"] != null)
+                            @if (Session["CurrentUserName"] != null)
+                            {
+
+                                if ((bool)Session["CurrentUserIsAdmin"] == true)
                                 {
+                                    <li>
+                                        <a href="#">Admin</a>
+                                        <ul class="dropdown">
+                                            <li> @Html.ActionLink("Orders", "AllOrders", "Admin")</li>
+                                            <li> @Html.ActionLink("AllUsers", "ShowUsers", "Admin")</li>
 
-                                    if ((bool)Session["CurrentUserIsAdmin"] == true)
-                                    {
-                                        <li>
-                                            <a href="#">Admin</a>
-                                            <ul class="dropdown">
-                                                <li> @Html.ActionLink("Orders", "AllOrders", "Admin")</li>
-                                                <li> @Html.ActionLink("AllUsers", "ShowUsers", "Admin")</li>
-
-                                            </ul>
-                                        </li>
-                                    }
+                                        </ul>
+                                    </li>
                                 }
+                            }
 
-                            </ul>
+                        </ul>
                     </nav>
                 </div>
             </div>
@@ -188,18 +186,18 @@
                         </div>
 
                         <p style="font-family: Dancing Script, sans-serif;">
-                          
+
 
                         </p>
 
-                        
+
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-6">
                     <div class="footer__newslatter">
                         <h6>Subscribe</h6>
                         <p>Satisfy your sweet tooth with our delectable cupcakes. Handcrafted with care and bursting with flavor, they're a treat for the senses..</p>
-                        
+
                     </div>
                 </div>
             </div>

@@ -613,6 +613,7 @@
     <Compile Include="Controllers\AdminController.cs" />
     <Compile Include="Controllers\ClientController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="CustomFilters\AdminAuthorizationFilterAttribute.cs" />
     <Compile Include="CustomFilters\UserAuthorizationFilterAttribute.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -672,8 +673,6 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Model\" />
-    <Folder Include="Views\Default\" />
-    <Folder Include="Views\Orders\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\eUseControl.BusinessLayer\eUseControl.BusinessLogic.csproj">

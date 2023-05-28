@@ -9,6 +9,7 @@
     <div class="container">
         <div class="checkout__form">
             <form action="/Home/Checkout" method="post">
+                @Html.AntiForgeryToken()
                 <div class="row">
                     <div class="col-lg-8 col-md-6">
 
@@ -40,7 +41,7 @@
                             <p>Town/City</p>
                             <input type="text" name="Town">
                         </div>
-                       
+
                         <div class="checkout__input">
                             <p>Postcode / ZIP</p>
                             <input type="text" name="PostalCode">
@@ -103,7 +104,9 @@
 
                             <button type="submit" class="site-btn">PLACE ORDER</button>
                         </div>
-
+                        <div style="color: #650101; font-style: italic; margin-top: 13px;">
+                            @Html.ValidationSummary()
+                        </div>
                     </div>
                 </div>
             </form>

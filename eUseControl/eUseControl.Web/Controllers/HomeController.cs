@@ -7,6 +7,7 @@ using eUseControl.BusinessLogic;
 using eUseControl.ViewModels;
 using eUseControl.DomainModels;
 using Microsoft.AspNet.Identity;
+using eUseControl.CustomFilters;
 
 namespace eUseControl.Web.Controllers
 {
@@ -35,7 +36,7 @@ namespace eUseControl.Web.Controllers
         {
             return View();
         }
-      
+        [UserAuthorizationFilter]
         public ActionResult Checkout()
         {
             int uid = (int)Session["CurrentUserID"];
@@ -56,26 +57,46 @@ namespace eUseControl.Web.Controllers
             return View(cupcakes);
         }
         [HttpPost]
-        public ActionResult Checkout(OrderViewModel ovm,OrderedCupcakeViewModel ocvm)
+        public ActionResult Checkout(OrderViewModel ovm, OrderedCupcakeViewModel ocvm)
         {
             int uid = (int)Session["CurrentUserID"];
             List<CartItemViewModel> cartItems = this.cup.GetCartItems().Where(temp => temp.UserID == uid).ToList();
             ovm.UserID = uid;
-            int orderId = this.ord.CreateOrder(ovm);
-
-         
-            foreach (CartItemViewModel ci in cartItems)
+            if (ModelState.IsValid)
             {
-                
-                ocvm.OrderID = orderId;
-                ocvm.CupcakeID=ci.CupcakeID;
-                ocvm.Quantity = ci.Quantity;
-                this.ocs.InsertOrderedCupcake(ocvm);
-                this.DeleteCartItem(ci.CupcakeID);
-            }
+                int orderId = this.ord.CreateOrder(ovm);
 
-            return RedirectToAction("ThankYou", "Home");
+
+                foreach (CartItemViewModel ci in cartItems)
+                {
+
+                    ocvm.OrderID = orderId;
+                    ocvm.CupcakeID = ci.CupcakeID;
+                    ocvm.Quantity = ci.Quantity;
+                    this.ocs.InsertOrderedCupcake(ocvm);
+                    this.DeleteCartItem(ci.CupcakeID);
+                }
+
+                return RedirectToAction("ThankYou", "Home");
+            }
+            else
+            {
+                ModelState.AddModelError("x", "");
+                List<CupcakeViewModel> cupcakes = new List<CupcakeViewModel>();
+                foreach (CartItemViewModel ci in cartItems)
+                {
+                    CupcakeViewModel cupcake = this.cup.GetCupcakeById(ci.CupcakeID);
+                    if (cupcake != null)
+                    {
+                        cupcakes.Add(cupcake);
+                    }
+                }
+
+                return View(cupcakes);
+
+            }
         }
+        [UserAuthorizationFilter]
         public ActionResult ThankYou()
         { return View(); 
         }
@@ -94,7 +115,7 @@ namespace eUseControl.Web.Controllers
         [HttpPost]
         public ActionResult Shop(CartItemViewModel rvm)
         {
-            // use the uid parameter here
+            
             int uid = (int)Session["CurrentUserID"];
             rvm.UserID = uid;
             int cid = this.cup.InsertCartItem(rvm);
@@ -109,8 +130,8 @@ namespace eUseControl.Web.Controllers
 
 
 
-     
-      public ActionResult ShoppingCart()
+        [UserAuthorizationFilter]
+        public ActionResult ShoppingCart()
         {
            int uid= (int)Session["CurrentUserID"];
    

@@ -1,12 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "HPWBnPzefCB0tFNEGRpW5WmBhp3AyYV9vVGzuKjGFfjXLIJoP+jBKu0V91RhJq5H7lqteT74edkYV+6Tv7iaVw==",
+  "dgSpecHash": "KU99iLPD1JZSUaj1swt6dffTavhANcSThA4Mawg+TPc7699U33T3U/zQ06xFCcqH++J4mYvM5ZyhkR0G29WofA==",
   "success": true,
-  "projectFilePath": "D:\\UTM\\Anul II\\Semestrul II\\ProjectWebLast\\WEB-PROJECT\\eUseControl\\eUseControl.DomainModels\\eUseControl.DomainModels.csproj",
+  "projectFilePath": "C:\\Users\\valer\\OneDrive\\Desktop\\Final Project\\WEB-PROJECT\\eUseControl\\eUseControl.DomainModels\\eUseControl.DomainModels.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Acer\\.nuget\\packages\\entityframework\\6.4.4\\entityframework.6.4.4.nupkg.sha512",
-    "C:\\Users\\Acer\\.nuget\\packages\\microsoft.aspnet.identity.core\\2.2.3\\microsoft.aspnet.identity.core.2.2.3.nupkg.sha512",
-    "C:\\Users\\Acer\\.nuget\\packages\\microsoft.aspnet.identity.entityframework\\2.2.3\\microsoft.aspnet.identity.entityframework.2.2.3.nupkg.sha512"
+    "C:\\Users\\valer\\.nuget\\packages\\entityframework\\6.4.4\\entityframework.6.4.4.nupkg.sha512",
+    "C:\\Users\\valer\\.nuget\\packages\\microsoft.aspnet.identity.core\\2.2.3\\microsoft.aspnet.identity.core.2.2.3.nupkg.sha512",
+    "C:\\Users\\valer\\.nuget\\packages\\microsoft.aspnet.identity.entityframework\\2.2.3\\microsoft.aspnet.identity.entityframework.2.2.3.nupkg.sha512"
   ],
   "logs": []
 }
